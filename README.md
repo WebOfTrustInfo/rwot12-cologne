@@ -7,6 +7,8 @@ still being finalized).
 
 The goal of the workshop is to generate five technical white papers and/or proposals on topics decided by the group that would have the  greatest impact on the future.
 
+Please [sign up for our mailing list](https://www.weboftrust.info/subscribe/) to be informed as the workshop is finalized.
+
 ## Advance Readings
 
 In advance of the design workshop, all participants are invited to contribute a one-or-two page topic paper to be shared with the other attendees on either:
