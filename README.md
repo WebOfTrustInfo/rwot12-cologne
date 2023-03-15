@@ -19,7 +19,7 @@ Please see the [Advance Readings directory](./advance-readings/advance-reading-p
 
 A different repository is available for each of the Rebooting the Web of Trust design workshops:
 
-* [Rebooting the Web of Trust XII: Colongue (September 2023)](https://github.com/WebOfTrustInfo/rwot12-cologne)
+* [Rebooting the Web of Trust XII: Cologne (September 2023)](https://github.com/WebOfTrustInfo/rwot12-cologne)
 * [Rebooting the Web of Trust XI: Netherlands (September 2022)](https://github.com/WebOfTrustInfo/rwot11-netherlands)
 * [Rebooting the Web of Trust X: Buenos Aires (March 2020)](https://github.com/WebOfTrustInfo/rwot10-buenosaires)
 * [Rebooting the Web of Trust IX: Prague (September 2019)](https://github.com/WebOfTrustInfo/rwot9-prague)
