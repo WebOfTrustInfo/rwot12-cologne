@@ -1,9 +1,6 @@
-# Rebooting the Web of Trust XII: Los Angeles (March 2023)
+# Rebooting the Web of Trust XII: Cologne (September 18-22, 2023)
 
-This repository contains documents related to RWOT12, the eleventh
-Rebooting the Web of Trust design workshop, which will be held in Los
-Angeles, California in the United States, probably in March 2023 (date
-still being finalized).
+This repository contains documents related to RWOT12, the twelfth Rebooting the Web of Trust design workshop, which will be held in Cologne in Germany, from Monday, September 18th through 22, 2023.
 
 The goal of the workshop is to generate five technical white papers and/or proposals on topics decided by the group that would have the  greatest impact on the future.
 
@@ -22,7 +19,7 @@ Please see the [Advance Readings directory](./advance-readings/advance-reading-p
 
 A different repository is available for each of the Rebooting the Web of Trust design workshops:
 
-* [Rebooting the Web of Trust XII: Los Angeles (March 2023)](https://github.com/WebOfTrustInfo/rwot12)
+* [Rebooting the Web of Trust XII: Colongue (September 2023)](https://github.com/WebOfTrustInfo/rwot12-cologne)
 * [Rebooting the Web of Trust XI: Netherlands (September 2022)](https://github.com/WebOfTrustInfo/rwot11-netherlands)
 * [Rebooting the Web of Trust X: Buenos Aires (March 2020)](https://github.com/WebOfTrustInfo/rwot10-buenosaires)
 * [Rebooting the Web of Trust IX: Prague (September 2019)](https://github.com/WebOfTrustInfo/rwot9-prague)
