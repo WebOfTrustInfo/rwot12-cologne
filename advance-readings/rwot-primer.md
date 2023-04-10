@@ -1,4 +1,4 @@
-# The Rebooting the Web of Trust Primer (v1.0.2: RWOT12 [in process])
+# The Rebooting the Web of Trust Primer (v1.0.3: RWOT12)
 
 ## Or: How Does it Work!?
 
@@ -12,17 +12,15 @@ So how does it work? What should you expect in your four days at Rebooting the W
 
 Please read our [primer on advanced readings](https://github.com/WebOfTrustInfo/rwot11-netherlands/blob/master/topics-and-advance-readings/advanced-paper-primer.md) so that you know what to write and what to read before the workshop!
 
-## Day Zero: Reviewing the Papers
+## Day One: Topic Paper Night
 
-Rebooting the Web of Trust starts on the evening prior to the beginning of our four full days of work. The goal of that first evening is to review papers, giving everyone a chance to learn more about many of our topics. This will occur through Lightning Talks (where people will present their topics to the group, in brief) and a Poster Session (where we'll select around six papers to be presented as posters).
-
-This first-night topic preview is occurring for the first time at RWOT11, so we're still in process of figuring out how to maximize its effect, and how to help participants to prepare for the evening.
+Rebooting the Web of Trust starts in the early evening prior to our four days of design work, which is usually on Monday, with a Topic Paper Night. The goal of that first evening is to review papers, giving everyone a chance to learn more about many of our topics. In recent years we've done this through a Poster Night, where everyone produces a Poster (or possibly just the first page of their paper) about their topic, and then we give everyone an opportunity to review and talk about those posters with their authors.
 
 Please be sure that you arrive at our host city early enough to participate in this evening event, as it will give you a head start on the whole workshop.
 
-## Day One: Laying the Foundation
+## Day Two: Laying the Foundation
 
-The actual "design" part of our design workshop begins on our first full day of work, but you should _not_ expect to write a paper on the first day of RWOT. Instead, that's the day where we lay the rest of the foundation for our work. We'll spend much of the day engaging in group exercises that will get you talking with your colleagues about the topics that interest you. 
+The actual "design" part of our design workshop begins on our first full day of work, but you should _not_ expect to write a paper on the first day of RWOT. Instead, that's the day where we lay the rest of the foundation for our work with what we call "Ideation & Term Formation". We'll spend much of the day engaging in group exercises that will get you talking with your colleagues about the topics that interest you. 
 
 This day establishes everything that follows. It serves several purposes:
 
@@ -42,7 +40,7 @@ The ideal RWOT group size is somewhere between three and seven members. With a s
 
 If you end up in a group with more than seven people, start thinking about whether your group can be split into two or more smaller groups. Usually in a group this size, there will be people with different interests related to your topic. Try and split apart along those lines. If you end up with two groups working on somewhat similar papers, that's OK: you'll have different points of view and will bring different perspectives and thoughts to the topic, which is the purpose of this workshop. (We've also had groups merge, or remerge, when they decided they were really working on the exact same topic after all.)
 
-Although less than ideal, we will support groups of two people, provided they are from different, unaligned organizations. This is the bare minimum for producing an RWOT paper: _your team must be at least two people._ This could be two partners, or it could be one primary author with a collaborator to consider and suggest ideas. However, if you can increase your group to three or more, that's something we encourage.
+Although less than ideal, we will support groups of two people, provided they are from different, unaligned organizations. This is the bare minimum for producing an RWOT paper: _your team must be at least two people and they must not from the same organization._ This could be two partners, or it could be one primary author with a collaborator to consider and suggest ideas. However, if you can increase your group to three or more, that's something we encourage.
 
 ### Determining Your Focus
 
@@ -61,15 +59,15 @@ At the end of the first day, we ask everyone to upload their abstract to [GitHub
 
 ### Enjoying the Margins
 
-After each day of the workshop, we're scheduling a non-sponsored dinner for participants. Some of you may be introverts who need to rest and relax back in your hotel rooms (or wandering the beautiful streets of our locale!), but for the rest of you, we hope you'll attend.
+After each day of the workshop, we facilitate the organization of non-sponsored dinner(s) for participants. Some of you may be introverts who need to rest and relax back in your hotel rooms (or wandering the beautiful streets of our locale!), but for the rest of you, we hope you'll attend.
 
-This is one of the activities that occurs "in the margins" of the workshop, a category that also includes our morning breakfasts, our noontime lunches, and our afternoon breaks. These "interstitial opportunities" providea time that you can meet with your colleagues and make connections outside your working group, but it's also an opportunity to spontaneously generate ideas that might be useful to your paper, to your fellows' papers, or even to the digital-identity space in general. We've had great questions and thoughts come out of past activities "in the margins" that have influenced the DID specification and more. 
+This is one of the activities that occurs "in the margins" of the workshop, a category that also includes our morning breakfasts, our noontime lunches, and our afternoon breaks. These "interstitial opportunities" provide a time that you can meet with your colleagues and make connections outside your working group, but it's also an opportunity to spontaneously generate ideas that might be useful to your paper, to your fellows' papers, or even to the decentralized-identity space in general. We've had great questions and thoughts come out of past activities "in the margins" that have influenced the DID specification and more. 
 
 Ultimately, any creative work is the product of both perspiration and inspiration. The workshop days will provide you with plenty of opportunity to contribute your perspiration, but look to the margins for your _inspiration_. 
 
-## Days Two to Four: Writing Your Paper
+## Days Three to Five: Writing Your Paper
 
-The rest of the workshop days will primarily be spent writing your paper (or your code or whatever).  The bulk of that will occur on the second day, but you'll have time on the afternoon of day three and the morning of day four.
+The rest of the workshop days will primarily be spent writing your paper (or your code or whatever artifact you're working on).  The bulk of that will occur on the second day, but you'll have time on the afternoon of day three and the morning of day four.
 
 There's no right or wrong way to produce your paper. We find that the majority of groups talk for a while, sharing their ideas, while someone records the most notable ones. At some point they tend to move into a collaborative document system like Google Docs and start outlining, then begin recording specific ideas for each section. Finally, they split up the writing tasks and begin to actually put words to paper.
 
@@ -79,9 +77,9 @@ Our prime suggestion is that you _bring a computer_ for the later days of the wo
 
 ### Getting to the Text
 
-Our other prime suggestion is this: _make sure that you're getting to the text by the end of day two_. Often, we want to keep talking about the great ideas that are occurring to us, and to keep expanding the possibilities of our papers. But groups ultimately need to put a cap on what a paper will cover. If there are contentious topics, put a pin in them and/or give the writing of those topics to the people most emotionally invested.
+Our other prime suggestion is this: _make sure that you're getting to the text by the end of day three_. Often, we want to keep talking about the great ideas that are occurring to us, and to keep expanding the possibilities of our papers. But groups ultimately need to put a cap on what a paper will cover. If there are contentious topics, put a pin in them and/or give the writing of those topics to the people most emotionally invested.
 
-By the end of day two you'll be about halfway through the time allotted for producing your paper, so try to be into the actual writing phase or you're going to be overwhelmed during the smaller amounts of time available during our last two days.
+By the end of day three you'll be about halfway through the time allotted for producing your paper, so try to be into the actual writing phase or you're going to be overwhelmed during the smaller amounts of time available during our last two days.
 
 ### Resolving Differences
 
@@ -89,22 +87,22 @@ When you're talking in group, try to make sure that everyone gets time to expres
 
 If you have any problems that you feel aren't being addressed by the group: if someone is steamrolling the consensus, if someone is harassing, or if there are other problems with behavior, let the RWOT staff know and we'll help out.
 
-## Day Two: Enjoying the Demos
+## Day Three: Demo Night!
 
-Day Two breaks a little early, at 4pm, when we've scheduled a "nap time" ahead of dinner. 
-We encourage you to step away from your paper and take advantage of this break, because we've got demos scheduled for the evening, beginning at 8pm.
+Day Three tends to break a little early, when we've scheduled a "nap time" ahead of dinner. 
+We encourage you to step away from your paper and take advantage of this break, because we've got demos scheduled for the evening.
 
 Demo night is optional. As with the events in the margins, you may opt out if you need some time to yourself. But it's also a great time to see what everyone else is working on and what the rapidly evolving state-of-the-art is in the Web of Trust. So, if you're up to coming back, we encourage you to do so.
 
-## Day Three: Engaging in Mandatory Fun
+## Day Four: Mandatory Fun!
 
-The third day of RWOT begins with some extracurricular activities, "in the margins" events where we're going to send groups out to enjoy the sights of our locale. We debuted this idea at RWOT9, and we highly encourage you to sign up and attend.
+The fourth day of RWOT begins with some extracurricular activities, "in the margins" events where we're going to send groups out to enjoy the sights of our locale. We debuted this idea at RWOT9, and we highly encourage you to sign up and attend. It should appear as a separate Eventbrite that oyu have access to.
 
 Obviously, this is an opportunity to generate more inspiration and to network more with your colleagues. But, it's also a time to recharge your batteries. You'll just have spent a grueling day discussing, outlining, and beginning the writing on your paper, potentially followed by a night of demos. Relax and see something totally new, and you'll find that you feel that much more powerful when you return in the afternoon.
 
 (And some of you may instead decide to recharge your batteries by sleeping in and relaxing at this mid-point of the workshop. That's fine too! But be sure to be back for the start of the workshop proper, later in the day.)
 
-## Day Four: Talking about the Web of Trust
+## Day Five: Talking about the Web of Trust
 
 Much of the final day of RWOT will be spent on the business of the Web of Trust, talking about the future of RWOT and how we can improve, as well as doing our final report outs.
 
@@ -114,7 +112,7 @@ This is also the day you finish your papers.
 
 For many first-time participants, this is the intimidating part: you produce a final draft of your paper and upload it to the GitHub archive. And, we definitely want you to upload the final state of your paper to GitHub, whatever it might be. To do so, upload an MD version of your paper using a Pull Request (PR). If you've been using Google Docs, you can convert your file to MD using [pandoc](https://pandoc.org/) or certain programs that you can link into your Google Docs files. Please do this even if you are planning to continue work in Google Docs later; the object is to upload your paper's status at the end of the workshop.
 
-We don't expect your final-day commit to be a fully polished paper, and it may not even be fully written. (In fact, as much as we talk about finalizing papers at the workshop, the truth is that a minority have had complete text by the final day of our workshop, and almost none have had complete and polished text.) Think of your paper as being "feature-complete" by the end of the workshop, but not necessarily even an "alpha" release. You definitely should know what the paper is going to say and how it's going to say it. You should have a complete outline of the paper. Most importantly, you should have everyone's collaborative contributions in place, recording all the creativity and inspiration from the workshop. That's the _minimum_ state that we suggest for your paper by "pencils down" on Day Four.
+We don't expect your final-day commit to be a fully polished paper, and it may not even be fully written. (In fact, as much as we talk about finalizing papers at the workshop, the truth is that a minority have had complete text by the final day of our workshop, and almost none have had complete and polished text.) Think of your paper as being "feature-complete" by the end of the workshop, but not necessarily even an "alpha" release. You definitely should know what the paper is going to say and how it's going to say it. You should have a complete outline of the paper. Most importantly, you should have everyone's collaborative contributions in place, recording all the creativity and inspiration from the workshop. That's the _minimum_ state that we suggest for your paper by "pencils down" on Day Five.
 
 Obviously, the more actual words you've got, the better: because that's much of the hard work and it'll ensure that you've captured all the great ideas at the workshop. But most papers over the years have probably ended up somewhere between a quarter and three quarters written by the end of the workshop, with the groups having a clear idea of what needed to be done to finish them.
 
@@ -122,17 +120,17 @@ If you can do more, great.
 
 ### Choosing Your Lead Author
 
-By the end of the third day or so you should have picked a Lead Author as well; definitely you have to know before submitting your paper on day four. The Lead Author is the responsible party **after** the workshop, organizing any final work needed to bring the paper to completion. They're one part editor, one part cat-herder, and one part nose-to-the-grindstone author, filling in whatever needs to be done.
+By the end of the fourth day or so you should have picked a Lead Author as well; definitely you have to know before submitting your paper on Day Five. The Lead Author is the responsible party **after** the workshop, organizing any final work needed to bring the paper to completion. They're one part editor, one part cat-herder, and one part nose-to-the-grindstone author, filling in whatever needs to be done.
 
 The Rebooting Web of Trust Editor-in-Chief will keep in touch with the Lead Author, to see how the project is going, while hopefully the Lead Author will stay in touch with the team, coordinating final work and filling in the gaps as needed.
 
 ### Thanking the Teams
 
-At the end of Day Four of RWOT, we've done weeks' worth of work in four short days. Everyone should take a moment to congratulate themselves and their colleagues on their investment in time and effort to improve our community!
+At the end of Day Five of RWOT, we've done weeks' worth of work in four short days (and one evening). Everyone should take a moment to congratulate themselves and their colleagues on their investment in time and effort to improve our community!
 
 ## After the Workshop: Really Finishing Your Paper
 
-It's easy to work on a paper during four days at an isolated location, surrounded by some of the best brains in the identity field. It's a lot harder to do so in the weeks and months afterward, even if there's a relatively small amount of work still to be done.
+It's easy to work on a paper during four days at an isolated location, surrounded by some of the best brains in the decentralized-identity field. It's a lot harder to do so in the weeks and months afterward, even if there's a relatively small amount of work still to be done.
 
 Traditionally, somewhere between one-half and three-quarters of papers that were considered viable at the end of the conference actually come to completion afterward. Following are some of our top suggestions for ensuring that you can finish up, and so bring your ideas to the awareness of our larger community through a published paper:
 
@@ -146,7 +144,7 @@ Traditionally, somewhere between one-half and three-quarters of papers that were
 
 5. **Let People Know If You're Busy.** We know: life happens. Sometimes people know they're not going to be able to continue the work after the workshop, and sometimes they find out in the weeks afterward, as real-life asserts itself and as new crises arise. If this happens to you, let your team know. They'll understand, and it'll give them an opportunity to react. If you're a small team, perhaps they'll decide it's time to end the project; if you're a large team, they may be able to assign your tasks to other members. In either case, giving everyone the information lets them make the best choices.
 
-If you decide not to finish your project, don't feel bad about it. It's happens to as many as 1 in 3 projects over the years. Perhaps the topic wasn't strong enough to support a paper; perhaps it was scoped too big; perhaps the team members didn't have the time outside the event; or perhaps there were irreconcilable differences. Do, however, consider if there's a way to share your work to date: perhaps as a truncated paper covering fewer topics; perhaps as a topic paper for a future RWOT; or perhaps just as an updated draft that you upload as a PR and which someone might stumble across in the future.
+If you decide not to finish your project, don't feel bad about it. It's happens to as many as 1 in 2 projects over the years. Perhaps the topic wasn't strong enough to support a paper; perhaps it was scoped too big; perhaps the team members didn't have the time outside the event; or perhaps there were irreconcilable differences. Do, however, consider if there's a way to share your work to date: perhaps as a truncated paper covering fewer topics; perhaps as a topic paper for a future RWOT; or perhaps just as an updated draft that you upload as a PR and which someone might stumble across in the future.
 
 ### Getting Consensus
 
@@ -166,7 +164,7 @@ Rebooting the Web of Trust uses the AMA guidelines for determining authorship: h
 
 ### Publishing the Paper
 
-After you've got a paper ready to go, the Lead Author should upload it as an MD file to our Drafts directory in the event's GitHub (using a PR if you don't have commit permissions) and contact our Editor-in-Chief. He'll do a line edit and submit it back to you as a PR with any comments for more extensive revisions. (We'll usually only offer more extensive thoughts on organization and content if you ask us, but feel free to do so!) After getting your OK, or any revisions, our Editor-in-Chief will then lay your paper out as a PDF, and we'll publish it to the "Final" directory.
+After you've got a paper ready to go, the Lead Author should upload it as an MD file to our Drafts directory in the event's GitHub (using a PR if you don't have commit permissions) and contact our Editor-in-Chief. He'll do a line edit and submit it back to you as a PR, possibly with comments for more extensive revisions. (We'll usually only offer more extensive thoughts on organization and content if you ask us, but feel free to do so!) After getting your OK, or any revisions, our Editor-in-Chief will then lay your paper out as a PDF, and we'll publish it to the "Final" directory.
 
 All outputs are officially released under open licenses. All papers are released under a [CC-BY](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/LICENSE-CC-BY-4.0.md) license, while code is released under an appropriate open source license.
 
