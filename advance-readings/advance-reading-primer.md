@@ -20,7 +20,9 @@ The best advanced-reading papers include some of the following:
 
 Please be sure to write your paper in a timely fashion, meeting the deadlines for submission, as that will help ensure that it's available for everyone else to read in advance of the workshop.
 
-When you've written your paper, please upload it to the [advance-readings directory](.). Please follow the instructions of the template to include your paper both in the topic and alphabetical contents, which will make it easier for everyone else to find.
+When you've written your paper, please upload it to the [advance-readings directory](.). Please follow the instructions in the advance-reading README to include your paper both in the topic and alphabetical contents, which will make it easier for everyone else to find.
+
+Be sure to also request your advance-reading discount code, which is also described in the advance-reading README!
 
 ## Reading the Papers
 
