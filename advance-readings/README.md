@@ -56,7 +56,7 @@ really, read as much as you can!)
 _Please add a level three header (`###`) for your paper's topic if it's not there already, then link it in the form:_
 
 ```
-[name](link)
+[A basic conceptual model for verifiable identity](https://github.com/rwot12-cologne/advance-readings](https://github.com/WebOfTrustInfo/rwot12-cologne/tree/main/advance-readings/VerifiableIdentityModel_v2.pdf)
    * by [author](mailto:if desired)
    * One to two sentence synopsis or quote
    * #hashtags for topics
@@ -67,7 +67,7 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 ## Alphabetical Listing
 
 _Please also enter your paper alphabetically in the form:_
-
+[A basic conceptual model for verifiable identity](https://github.com/rwot12-cologne/advance-readings](https://github.com/WebOfTrustInfo/rwot12-cologne/tree/main/advance-readings/VerifiableIdentityModel_v2.pdf)
 ```
 * [Paper Name](link)
 ```
