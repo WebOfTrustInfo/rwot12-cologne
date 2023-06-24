@@ -64,8 +64,8 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 
 ### ... more ...
 
-[Verifiable Credential Resolver (VCR) for supply chains](./Verifiable Credential Resolver for supply chains.md)
-  * by [Mirko Mollik][mailto:mirkomollik@gmail.com]
+[Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
+  * by [Mirko Mollik](mailto:mirkomollik@gmail.com)
   * Resoling the endpoint to request VCs from a product having a DID
   * #did #vc #supplychain, #dpp
 
