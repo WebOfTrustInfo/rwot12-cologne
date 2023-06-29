@@ -61,6 +61,10 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * One to two sentence synopsis or quote
    * #hashtags for topics
 ```
+### Formal modeling
+[A basic conceptual model for verifiable identity] (https://github.com/rwot12-cologne/advance-readings](https://github.com/WebOfTrustInfo/rwot12-cologne/tree/main/advance-readings/VerifiableIdentityModel_v2.pdf)
+* by l. boldrin
+* sketch of a formal model for verifiable identity
 
 ### ... more ...
 
@@ -68,6 +72,11 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
   * by [Mirko Mollik](mailto:mirkomollik@gmail.com)
   * Resoling the endpoint to request VCs from a product having a DID
   * #did #vc #supplychain, #dpp
+
+[Digital Product Passport](./verifiable-product-passport.md)
+   * by [Christian Fries](mailto:christian.fries@eecc.de)
+   * Using verifiable credentials to transform the digital product passport into a verifiable digital product passport
+   * #verifiable,credentials,dpp
 
 ## Alphabetical Listing
 
@@ -77,4 +86,6 @@ _Please also enter your paper alphabetically in the form:_
 * [Paper Name](link)
 ```
 * [Verifiable Credential Resolver (VCR) for supply chains](./Verifiable Credential Resolver for supply chains.md)
+
+* [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
 
