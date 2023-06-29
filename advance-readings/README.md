@@ -61,6 +61,10 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * One to two sentence synopsis or quote
    * #hashtags for topics
 ```
+### Formal modeling
+[A basic conceptual model for verifiable identity] (https://github.com/rwot12-cologne/advance-readings](https://github.com/WebOfTrustInfo/rwot12-cologne/tree/main/advance-readings/VerifiableIdentityModel_v2.pdf)
+* by l. boldrin
+* sketch of a formal model for verifiable identity
 
 ### ... more ...
 
