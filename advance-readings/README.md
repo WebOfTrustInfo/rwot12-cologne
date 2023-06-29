@@ -62,7 +62,7 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * #hashtags for topics
 ```
 ### Formal Modeling
-[A basic conceptual model for verifiable identity](./VerifiableIdentityModel_v2.pdf)
+[A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
    * by l. boldrin
    * sketch of a formal model for verifiable identity
    * #identity #model
@@ -86,8 +86,8 @@ _Please also enter your paper alphabetically in the form:_
 ```
 * [Paper Name](link)
 ```
-* [A basic conceptual model for verifiable identity](./VerifiableIdentityModel_v2.pdf)
+* [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
-* [Verifiable Credential Resolver (VCR) for supply chains](./Verifiable Credential Resolver for supply chains.md)
+* [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
 
 
