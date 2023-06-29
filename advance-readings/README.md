@@ -68,6 +68,11 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 
 ### ... more ...
 
+[Digital Product Passport](./verifiable-product-passport.md)
+   * by [Christian Fries](mailto:christian.fries@eecc.de)
+   * Using verifiable credentials to transform the digital product passport into a verifiable digital product passport
+   * #verifiable,credentials,dpp
+
 ## Alphabetical Listing
 
 _Please also enter your paper alphabetically in the form:_
@@ -75,4 +80,6 @@ _Please also enter your paper alphabetically in the form:_
 ```
 * [Paper Name](link)
 ```
+
+* [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
 
