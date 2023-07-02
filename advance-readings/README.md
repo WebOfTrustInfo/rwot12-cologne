@@ -61,6 +61,11 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * One to two sentence synopsis or quote
    * #hashtags for topics
 ```
+### company-identification-with-qseal-certs
+[Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
+   * by Hans Boone
+   * proposal to bootstrap company identity by using qualified seal certificates.
+   * #qseal #eidas #ODI #vc
 ### Formal Modeling
 [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
    * by l. boldrin
@@ -89,5 +94,5 @@ _Please also enter your paper alphabetically in the form:_
 * [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
-
+* [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
 
