@@ -77,7 +77,7 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
    * by Gaya Blair Pendleton, Valerie Brusola, Markus Willms, and Moses Ma
    * Articulating the principles and key design considerations for a use case for DIDs and VCs in the world of fine arts involving both physical and digital collectibles
-   * #did #vc #verifiablecredentials #supplychain #dpp
+   * #did #vc #verifiablecredentials #nft #art #provenance
 
 [Trust in Verifiable Digital Product Passport](./verifiable-product-passport.md)
    * by [Christian Fries](mailto:christian.fries@eecc.de)
