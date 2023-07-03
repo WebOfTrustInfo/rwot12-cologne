@@ -74,6 +74,11 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 
 ### Verifiable Credentials
 
+[Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
+   * by Gaya Blair Pendleton, Valerie Brusola, Markus Willms, and Moses Ma
+   * Articulating the principles and key design considerations for a use case for DIDs and VCs in the world of fine arts involving both physical and digital collectibles
+   * #did #vc #verifiablecredentials #supplychain #dpp
+
 [Trust in Verifiable Digital Product Passport](./verifiable-product-passport.md)
    * by [Christian Fries](mailto:christian.fries@eecc.de)
    * Using verifiable credentials to transform the digital product passport into a verifiable digital product passport
@@ -92,6 +97,7 @@ _Please also enter your paper alphabetically in the form:_
 * [Paper Name](link)
 ```
 * [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
+* [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
 * [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
