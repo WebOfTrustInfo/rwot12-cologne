@@ -1,7 +1,7 @@
 ### Decentralized Identity and Verifiable Claims for the Arts and Artists
 * by Gaya Blair Pendleton, Valerie Brusola, Markus Willms, and [Moses Ma](mailto:moses.ma@futurelabconsulting.com)  
 * Articulating the principles and key design considerations for a use case for DIDs and VCs in the world of fine arts involving both physical and digital collectibles
-* #did #vc #verifiablecredentials #supplychain #dpp
+* #did #vc #verifiablecredentials #nft #art #provenance
 
 Submitted to the 12th Rebooting the Web of Trust Technical Workshop
 September 18-22, 2023 • Cologne, Germany
