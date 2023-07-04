@@ -1,11 +1,10 @@
 # MyEduLife
 
 - By:
-
   - [Fatemeh Fathi](Fathi@dbis.rwth-Aachen.de), RWTH Aachen University, Germany
-  - [Philipp Zagle](philipp.zagler@th-luebeck.de), TH Lübeck, Germany
   - [Björn Adelberg](bjoern.adelberg@tu-dresden.de), TU Dresden, Germany
-
+  - [Philipp Zagle](philipp.zagler@th-luebeck.de), TH Lübeck, Germany
+  
 - A tool for decentralized storage of individual continuing education biographies.
 
 - #self-sovereign-identity #digital-identity #education #skills #distributed-ledger
