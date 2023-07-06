@@ -61,8 +61,39 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * One to two sentence synopsis or quote
    * #hashtags for topics
 ```
+### company-identification-with-qseal-certs
+[Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
+   * by Hans Boone
+   * proposal to bootstrap company identity by using qualified seal certificates.
+   * #qseal #eidas #ODI #vc
+### Formal Modeling
+[A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
+   * by l. boldrin
+   * sketch of a formal model for verifiable identity
+   * #identity #model
 
-### ... more ...
+### Verifiable Credentials
+
+[Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
+   * by Gaya Blair Pendleton, Valerie Brusola, Markus Willms, and Moses Ma
+   * Articulating the principles and key design considerations for a use case for DIDs and VCs in the world of fine arts involving both physical and digital collectibles
+   * #did #vc #verifiablecredentials #nft #art #provenance
+
+[Trust in Verifiable Digital Product Passport](./verifiable-product-passport.md)
+   * by [Christian Fries](mailto:christian.fries@eecc.de)
+   * Using verifiable credentials to transform the digital product passport into a verifiable digital product passport
+   * #vc #verifiablecredentials #dpp
+
+[Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
+  * by [Mirko Mollik](mailto:mirkomollik@gmail.com)
+  * Resoling the endpoint to request VCs from a product having a DID
+  * #did #vc #verifiablecredentials #supplychain #dpp
+
+### Decentralized Platforms
+[MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
+* by [Fatemeh Fathi](Fathi@dbis.rwth-Aachen.de), [Björn Adelberg](bjoern.adelberg@tu-dresden.de), and [Philipp Zagle](philipp.zagler@th-luebeck.de)
+* A tool for decentralized storage of individual continuing education biographies
+* #self-sovereign-identity #digital-identity #education #skills #distributed-ledger
 
 ## Alphabetical Listing
 
@@ -71,4 +102,10 @@ _Please also enter your paper alphabetically in the form:_
 ```
 * [Paper Name](link)
 ```
+* [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
+* [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
+* [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
+* [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
+* [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
+* [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
 
