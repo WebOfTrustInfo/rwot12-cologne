@@ -89,6 +89,12 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
   * Resoling the endpoint to request VCs from a product having a DID
   * #did #vc #verifiablecredentials #supplychain #dpp
 
+### Decentralized Platforms
+[MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
+* by [Fatemeh Fathi](Fathi@dbis.rwth-Aachen.de), [Björn Adelberg](bjoern.adelberg@tu-dresden.de), and [Philipp Zagle](philipp.zagler@th-luebeck.de)
+* A tool for decentralized storage of individual continuing education biographies
+* #self-sovereign-identity #digital-identity #education #skills #distributed-ledger
+
 ## Alphabetical Listing
 
 _Please also enter your paper alphabetically in the form:_
@@ -98,6 +104,7 @@ _Please also enter your paper alphabetically in the form:_
 ```
 * [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
 * [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
+* [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
 * [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
