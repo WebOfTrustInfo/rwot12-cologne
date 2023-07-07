@@ -262,5 +262,5 @@ we would consider the integration of DIDComm with
 [8] Barnes, Richard, et al. "RFC 9180: Hybrid public key encryption." (2022).  
 [9] https://datatracker.ietf.org/doc/html/rfc7518#section-4.6  
 [10] Neil Madden. Public Key Authenticated Encryption for JOSE: ECDH-1PU. Internet-Draft draft-madden-jose-ecdh-1pu-04. Work in Progress. Internet Engineering Task Force, May 2021. 21 pp. URL: https://datatracker.ietf.org/doc/draft-madden-jose-ecdh-1pu/04/.  
-[11] Lack of session and expensive key agreements steps could hurt adoption https://github.com/decentralized-identity/didcomm-messaging/issues/243
+[11] Lack of session and expensive key agreements steps could hurt adoption https://github.com/decentralized-identity/didcomm-messaging/issues/243  
 [12] Weidner, Matthew, et al. "Key agreement for decentralized secure group messaging with strong security guarantees." Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security. 2021.
