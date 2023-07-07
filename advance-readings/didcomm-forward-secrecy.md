@@ -155,7 +155,7 @@ messages, we combine the DID ratchet presented above with a symmetric ratchet th
 for every message, rotates the *key-wrapping key* generated during the *ECDH-1PU* key 
 exchange.
 
-The process requires chaining an output produced by the *ECDC-1PU* key derivation function
+The process requires chaining an output produced by the *ECDH-1PU* key derivation function
 (KDF) into the input of the KDF used for the next message.
 The fresh encryption keys produced at every iteration can be 
 deterministically and independently computed by both entities, which maintains the
