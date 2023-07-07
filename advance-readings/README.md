@@ -106,6 +106,7 @@ _Please also enter your paper alphabetically in the form:_
 * [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
 * [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
+* [Verifiable Crendential Issuer Verification as a Commodity](./vc-issuer-verification-as-a-commodity.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
 * [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
 
