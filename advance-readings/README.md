@@ -84,6 +84,11 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * Using verifiable credentials to transform the digital product passport into a verifiable digital product passport
    * #vc #verifiablecredentials #dpp
 
+[The Monetization of Verifiable Credential Issuer Verification](./monetization-of-vc-issuer-verification.md)
+  * by Jen Schreiber
+  * An exploration of how the monetization of Verifiable Credential Issuer verification will impact the integrity and trust networks within the SSI ecosystem
+  * #trust #verifiablecredentials #issuers #verification
+
 [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
   * by [Mirko Mollik](mailto:mirkomollik@gmail.com)
   * Resoling the endpoint to request VCs from a product having a DID
@@ -106,6 +111,7 @@ _Please also enter your paper alphabetically in the form:_
 * [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
 * [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
+* [Verifiable Crendential Issuer Verification as a Commodity](./vc-issuer-verification-as-a-commodity.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
 * [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
 
