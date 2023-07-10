@@ -5,7 +5,7 @@ Author: Samuel M. Smith Ph.D.
 
 ## Introduction
 
-In the (SPAC whitepaper)[https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/SPAC_Message.md],  a protocol is described using best practices with readily available cryptographic operations to provide secure privacy, authenticity, and confidentiality.  The protocol provides a foundation for best practices for what we are calling ***sustainable privacy***.  We intend to further define, explicate, and develop those practices in light of the technological, legal, and economic challenges to sustainable privacy.
+In the [SPAC whitepaper](https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/SPAC_Message.md),  a protocol is described using best practices with readily available cryptographic operations to provide secure privacy, authenticity, and confidentiality.  The protocol provides a foundation for best practices for what we are calling ***sustainable privacy***.  We intend to further define, explicate, and develop those practices in light of the technological, legal, and economic challenges to sustainable privacy.
 
 ## Time Value of Information
 
