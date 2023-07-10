@@ -49,8 +49,6 @@ really, read as much as you can!)
 * [Functional Identity Primer](./functional-identity-primer.md) — A different way to look at identity
 * [Verifiable Credentials Primer](./verifiable-credentials-primer.md) — the project formerly known as Verifiable Claims
 * [Glossary of Terms](./glossary-primer.md) — a brief dictionary of technical terms used at RWOT
-* [Data Generator](./data-generator.md) — a data-generator for SSI  
-* [Nostr Verifiable Presentation Protocol](./NostrVP.md) — VC and VP within the Nostr ecosystem
 
 ## Topical Listing
 
@@ -131,6 +129,8 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
   * #did #vc #verifiablecredentials #vp #verifiablepresentations #nostr  
   
 
+* [Data Generator](./data-generator.md) — a data-generator for SSI  
+
 ## Alphabetical Listing
 
 _Please also enter your paper alphabetically in the form:_
@@ -140,9 +140,11 @@ _Please also enter your paper alphabetically in the form:_
 ```
 * [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
 * [A path towards forward secrecy in DIDComm](/advance-readings/didcomm-forward-secrecy.md)
+* [Data Generator](./data-generator.md)
 * [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
 * [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
 * [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
+* [Nostr Verifiable Presentation Protocol](./NostrVP.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
 * [Verifiable Crendential Issuer Verification as a Commodity](./vc-issuer-verification-as-a-commodity.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
