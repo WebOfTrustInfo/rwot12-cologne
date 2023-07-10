@@ -173,7 +173,6 @@ _Please also enter your paper alphabetically in the form:_
 ```
 * [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
 * [A path towards forward secrecy in DIDComm](/advance-readings/didcomm-forward-secrecy.md)
-* [Data Generator](./data-generator.md)
 * [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
 * [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
 * [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
