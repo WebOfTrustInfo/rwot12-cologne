@@ -66,6 +66,14 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * by Hans Boone
    * proposal to bootstrap company identity by using qualified seal certificates.
    * #qseal #eidas #ODI #vc
+
+### DIDComm
+
+[A path towards forward secrecy in DIDComm](/advance-readings/didcomm-forward-secrecy.md)
+   * by Dan Carez
+   * A proposal to achieve forward secrecy and post-compromise security via the integration of ratcheted key exchanges in DIDComm.
+   * #didcomm #forward-secrecy #post-compromise-security #ratcheted-key-exchange
+
 ### Formal Modeling
 [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
    * by l. boldrin
@@ -108,6 +116,7 @@ _Please also enter your paper alphabetically in the form:_
 * [Paper Name](link)
 ```
 * [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
+* [A path towards forward secrecy in DIDComm](/advance-readings/didcomm-forward-secrecy.md)
 * [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
 * [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
