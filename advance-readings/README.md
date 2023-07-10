@@ -7,7 +7,7 @@ on either:
 * A specific problem that they wanted to solve with a web-of-trust solution, and why current solutions (PGP or CA-based PKI) can't address the problem?
 * A specific solution related to the web-of-trust that you'd like others to use or contribute to?
 
-If you will be attending Rebooting the Web of Trust March 2023 in Cologne, please upload your advance readings to this directory with a
+If you will be attending Rebooting the Web of Trust September 2023 in Cologne, please upload your advance readings to this directory with a
 pull request.
 
 ## Pull Request Submission
@@ -62,11 +62,19 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * One to two sentence synopsis or quote
    * #hashtags for topics
 ```
-### company-identification-with-qseal-certs
+### Certificates
+
 [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
    * by Hans Boone
    * proposal to bootstrap company identity by using qualified seal certificates.
    * #qseal #eidas #ODI #vc
+
+### Decentralized Platforms
+
+[MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
+* by [Fatemeh Fathi](Fathi@dbis.rwth-Aachen.de), [Björn Adelberg](bjoern.adelberg@tu-dresden.de), and [Philipp Zagle](philipp.zagler@th-luebeck.de)
+* A tool for decentralized storage of individual continuing education biographies
+* #self-sovereign-identity #digital-identity #education #skills #distributed-ledger
 
 ### DIDComm
 
@@ -80,6 +88,20 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * by l. boldrin
    * sketch of a formal model for verifiable identity
    * #identity #model
+
+### IoT (Internet of Things)
+
+* [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
+   * by Yongli Mou
+   * In the forestry sector, the application of Industry 4.0-compliant concepts, known as Forestry 4.0, holds the promise of revolutionizing forest management and conservation by offering IoT-based capabilities to monitor and manage forest resources.
+   * #self-sovereign-identity #access control management #IoT #smart Forestry
+
+### Self-Sovereign Identity
+
+* [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
+   * by Yongli Mou
+   * In the forestry sector, the application of Industry 4.0-compliant concepts, known as Forestry 4.0, holds the promise of revolutionizing forest management and conservation by offering IoT-based capabilities to monitor and manage forest resources.
+   * #self-sovereign-identity #access control management #IoT #smart Forestry
 
 ### Verifiable Credentials
 
@@ -108,11 +130,6 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
   * Exchanging Verifiable Credentials (VCs) and Verifiable Presentations (VPs) within the Nostr ecosystem  
   * #did #vc #verifiablecredentials #vp #verifiablepresentations #nostr  
   
-### Decentralized Platforms
-[MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
-* by [Fatemeh Fathi](Fathi@dbis.rwth-Aachen.de), [Björn Adelberg](bjoern.adelberg@tu-dresden.de), and [Philipp Zagle](philipp.zagler@th-luebeck.de)
-* A tool for decentralized storage of individual continuing education biographies
-* #self-sovereign-identity #digital-identity #education #skills #distributed-ledger
 
 ## Alphabetical Listing
 
@@ -123,6 +140,7 @@ _Please also enter your paper alphabetically in the form:_
 ```
 * [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
 * [A path towards forward secrecy in DIDComm](/advance-readings/didcomm-forward-secrecy.md)
+* [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
 * [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
 * [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
