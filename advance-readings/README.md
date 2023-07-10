@@ -49,7 +49,8 @@ really, read as much as you can!)
 * [Functional Identity Primer](./functional-identity-primer.md) — A different way to look at identity
 * [Verifiable Credentials Primer](./verifiable-credentials-primer.md) — the project formerly known as Verifiable Claims
 * [Glossary of Terms](./glossary-primer.md) — a brief dictionary of technical terms used at RWOT
-* [Data Generator](./data-generator.md) — a data-generator for SSI
+* [Data Generator](./data-generator.md) — a data-generator for SSI  
+* [Nostr Verifiable Presentation Protocol](./NostrVP.md) — VC and VP within the Nostr ecosystem
 
 ## Topical Listing
 
@@ -100,8 +101,13 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
   * by [Mirko Mollik](mailto:mirkomollik@gmail.com)
   * Resoling the endpoint to request VCs from a product having a DID
-  * #did #vc #verifiablecredentials #supplychain #dpp
-
+  * #did #vc #verifiablecredentials #supplychain #dpp  
+  
+[Nostr Verifiable Presentation Protocol](./NostrVP.md)  
+  * by [Imad El Aouny](mailto:imad.elaouny@mydid.com), [Frederic Martin](mailto:frederic.martin@mydid.com)  
+  * Exchanging Verifiable Credentials (VCs) and Verifiable Presentations (VPs) within the Nostr ecosystem  
+  * #did #vc #verifiablecredentials #vp #verifiablepresentations #nostr  
+  
 ### Decentralized Platforms
 [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
 * by [Fatemeh Fathi](Fathi@dbis.rwth-Aachen.de), [Björn Adelberg](bjoern.adelberg@tu-dresden.de), and [Philipp Zagle](philipp.zagler@th-luebeck.de)
