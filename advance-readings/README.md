@@ -181,6 +181,5 @@ _Please also enter your paper alphabetically in the form:_
 * [Nostr Verifiable Presentation Protocol](./NostrVP.md)
 * [Sustainable Privacy, Authenticity, and Confidentiality](sustainableprivacy.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
-* [Verifiable Crendential Issuer Verification as a Commodity](./vc-issuer-verification-as-a-commodity.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
 * [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
