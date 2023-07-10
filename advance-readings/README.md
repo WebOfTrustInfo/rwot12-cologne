@@ -7,7 +7,7 @@ on either:
 - A specific problem that they wanted to solve with a web-of-trust solution, and why current solutions (PGP or CA-based PKI) can't address the problem?
 - A specific solution related to the web-of-trust that you'd like others to use or contribute to?
 
-If you will be attending Rebooting the Web of Trust March 2023 in Cologne, please upload your advance readings to this directory with a
+If you will be attending Rebooting the Web of Trust September 2023 in Cologne, please upload your advance readings to this directory with a
 pull request.
 
 ## Pull Request Submission
@@ -43,13 +43,12 @@ These primers overview major topics which are likely to be discussed
 at the design workshop. If you read nothing else, read these. (But
 really, read as much as you can!)
 
-- [Advance Reading Primer](./advance-reading-primer.md) — About the advance reading papers
-- [RWOT Primer](./rwot-primer.md) — How the design workshop works
-- [DID Primer](./did-primer.md) — Decentralized Identifiers ([extended version](./did-primer-extended.md) also available)
-- [Functional Identity Primer](./functional-identity-primer.md) — A different way to look at identity
-- [Verifiable Credentials Primer](./verifiable-credentials-primer.md) — the project formerly known as Verifiable Claims
-- [Glossary of Terms](./glossary-primer.md) — a brief dictionary of technical terms used at RWOT
-- [Data Generator](./data-generator.md) — a data-generator for SSI
+* [Advance Reading Primer](./advance-reading-primer.md) — About the advance reading papers
+* [RWOT Primer](./rwot-primer.md) — How the design workshop works
+* [DID Primer](./did-primer.md) — Decentralized Identifiers ([extended version](./did-primer-extended.md) also available)
+* [Functional Identity Primer](./functional-identity-primer.md) — A different way to look at identity
+* [Verifiable Credentials Primer](./verifiable-credentials-primer.md) — the project formerly known as Verifiable Claims
+* [Glossary of Terms](./glossary-primer.md) — a brief dictionary of technical terms used at RWOT
 
 ## Topical Listing
 
@@ -61,14 +60,26 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * One to two sentence synopsis or quote
    * #hashtags for topics
 ```
-
-### company-identification-with-qseal-certs
+### Certificates
 
 [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
+   * by Hans Boone
+   * proposal to bootstrap company identity by using qualified seal certificates.
+   * #qseal #eidas #ODI #vc
 
-- by Hans Boone
-- proposal to bootstrap company identity by using qualified seal certificates.
-- #qseal #eidas #ODI #vc
+### Decentralized Platforms
+
+[MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
+* by [Fatemeh Fathi](Fathi@dbis.rwth-Aachen.de), [Björn Adelberg](bjoern.adelberg@tu-dresden.de), and [Philipp Zagle](philipp.zagler@th-luebeck.de)
+* A tool for decentralized storage of individual continuing education biographies
+* #self-sovereign-identity #digital-identity #education #skills #distributed-ledger
+
+### DIDComm
+
+[A path towards forward secrecy in DIDComm](/advance-readings/didcomm-forward-secrecy.md)
+   * by Dan Carez
+   * A proposal to achieve forward secrecy and post-compromise security via the integration of ratcheted key exchanges in DIDComm.
+   * #didcomm #forward-secrecy #post-compromise-security #ratcheted-key-exchange
 
 ### Formal Modeling
 
@@ -77,6 +88,20 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 - by l. boldrin
 - sketch of a formal model for verifiable identity
 - #identity #model
+
+### IoT (Internet of Things)
+
+* [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
+   * by Yongli Mou
+   * In the forestry sector, the application of Industry 4.0-compliant concepts, known as Forestry 4.0, holds the promise of revolutionizing forest management and conservation by offering IoT-based capabilities to monitor and manage forest resources.
+   * #self-sovereign-identity #access control management #IoT #smart Forestry
+
+### Self-Sovereign Identity
+
+* [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
+   * by Yongli Mou
+   * In the forestry sector, the application of Industry 4.0-compliant concepts, known as Forestry 4.0, holds the promise of revolutionizing forest management and conservation by offering IoT-based capabilities to monitor and manage forest resources.
+   * #self-sovereign-identity #access control management #IoT #smart Forestry
 
 ### Verifiable Credentials
 
@@ -91,6 +116,11 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 - by [Christian Fries](mailto:christian.fries@eecc.de)
 - Using verifiable credentials to transform the digital product passport into a verifiable digital product passport
 - #vc #verifiablecredentials #dpp
+
+[The Monetization of Verifiable Credential Issuer Verification](./monetization-of-vc-issuer-verification.md)
+  * by Jen Schreiber
+  * An exploration of how the monetization of Verifiable Credential Issuer verification will impact the integrity and trust networks within the SSI ecosystem
+  * #trust #verifiablecredentials #issuers #verification
 
 [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
 
@@ -111,7 +141,12 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 - by [Stevan Eraković](mailto:stevan.erakovic@danubetech.com)
 - How DIDs can bring easy key management and more to Nostr
 - #nostr #dids #decentralized-identity #freedom-of-speech
-
+  
+[Nostr Verifiable Presentation Protocol](./NostrVP.md)  
+  * by [Imad El Aouny](mailto:imad.elaouny@mydid.com), [Frederic Martin](mailto:frederic.martin@mydid.com)  
+  * Exchanging Verifiable Credentials (VCs) and Verifiable Presentations (VPs) within the Nostr ecosystem  
+  * #did #vc #verifiablecredentials #vp #verifiablepresentations #nostr  
+  
 ## Alphabetical Listing
 
 _Please also enter your paper alphabetically in the form:_
@@ -119,11 +154,14 @@ _Please also enter your paper alphabetically in the form:_
 ```
 * [Paper Name](link)
 ```
-
-- [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
-- [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
-- [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
-- [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
-- [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
-- [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
-- [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
+* [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
+* [A path towards forward secrecy in DIDComm](/advance-readings/didcomm-forward-secrecy.md)
+* [Data Generator](./data-generator.md)
+* [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
+* [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
+* [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
+* [Nostr Verifiable Presentation Protocol](./NostrVP.md)
+* [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
+* [Verifiable Crendential Issuer Verification as a Commodity](./vc-issuer-verification-as-a-commodity.md)
+* [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
+* [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
