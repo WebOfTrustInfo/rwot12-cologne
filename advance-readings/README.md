@@ -74,6 +74,14 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 * A tool for decentralized storage of individual continuing education biographies
 * #self-sovereign-identity #digital-identity #education #skills #distributed-ledger
 
+### DIDs
+
+[DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
+
+- by [Stevan Eraković](mailto:stevan.erakovic@danubetech.com)
+- How DIDs can bring easy key management and more to Nostr
+- #nostr #dids #decentralized-identity #freedom-of-speech
+  
 ### DIDComm
 
 [A path towards forward secrecy in DIDComm](/advance-readings/didcomm-forward-secrecy.md)
@@ -96,6 +104,19 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * In the forestry sector, the application of Industry 4.0-compliant concepts, known as Forestry 4.0, holds the promise of revolutionizing forest management and conservation by offering IoT-based capabilities to monitor and manage forest resources.
    * #self-sovereign-identity #access control management #IoT #smart Forestry
 
+### Nostr
+
+[DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
+
+- by [Stevan Eraković](mailto:stevan.erakovic@danubetech.com)
+- How DIDs can bring easy key management and more to Nostr
+- #nostr #dids #decentralized-identity #freedom-of-speech
+
+[Nostr Verifiable Presentation Protocol](./NostrVP.md)  
+  * by [Imad El Aouny](mailto:imad.elaouny@mydid.com), [Frederic Martin](mailto:frederic.martin@mydid.com)  
+  * Exchanging Verifiable Credentials (VCs) and Verifiable Presentations (VPs) within the Nostr ecosystem  
+  * #did #vc #verifiablecredentials #vp #verifiablepresentations #nostr
+
 ### Self-Sovereign Identity
 
 * [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
@@ -110,6 +131,11 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 - by Gaya Blair Pendleton, Valerie Brusola, Markus Willms, and Moses Ma
 - Articulating the principles and key design considerations for a use case for DIDs and VCs in the world of fine arts involving both physical and digital collectibles
 - #did #vc #verifiablecredentials #nft #art #provenance
+
+[Nostr Verifiable Presentation Protocol](./NostrVP.md)  
+  * by [Imad El Aouny](mailto:imad.elaouny@mydid.com), [Frederic Martin](mailto:frederic.martin@mydid.com)  
+  * Exchanging Verifiable Credentials (VCs) and Verifiable Presentations (VPs) within the Nostr ecosystem  
+  * #did #vc #verifiablecredentials #vp #verifiablepresentations #nostr
 
 [Trust in Verifiable Digital Product Passport](./verifiable-product-passport.md)
 
@@ -128,24 +154,8 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 - Resoling the endpoint to request VCs from a product having a DID
 - #did #vc #verifiablecredentials #supplychain #dpp
 
-### Decentralized Platforms
-
-[MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
-
-- by [Fatemeh Fathi](Fathi@dbis.rwth-Aachen.de), [Björn Adelberg](bjoern.adelberg@tu-dresden.de), and [Philipp Zagle](philipp.zagler@th-luebeck.de)
-- A tool for decentralized storage of individual continuing education biographies
-- #self-sovereign-identity #digital-identity #education #skills #distributed-ledger
-
-[DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
-
-- by [Stevan Eraković](mailto:stevan.erakovic@danubetech.com)
-- How DIDs can bring easy key management and more to Nostr
-- #nostr #dids #decentralized-identity #freedom-of-speech
   
-[Nostr Verifiable Presentation Protocol](./NostrVP.md)  
-  * by [Imad El Aouny](mailto:imad.elaouny@mydid.com), [Frederic Martin](mailto:frederic.martin@mydid.com)  
-  * Exchanging Verifiable Credentials (VCs) and Verifiable Presentations (VPs) within the Nostr ecosystem  
-  * #did #vc #verifiablecredentials #vp #verifiablepresentations #nostr  
+
   
 ## Alphabetical Listing
 
@@ -159,6 +169,7 @@ _Please also enter your paper alphabetically in the form:_
 * [Data Generator](./data-generator.md)
 * [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
 * [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
+* [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
 * [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
 * [Nostr Verifiable Presentation Protocol](./NostrVP.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
