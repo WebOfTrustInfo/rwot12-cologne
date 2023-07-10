@@ -117,6 +117,13 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
   * Exchanging Verifiable Credentials (VCs) and Verifiable Presentations (VPs) within the Nostr ecosystem  
   * #did #vc #verifiablecredentials #vp #verifiablepresentations #nostr
 
+### Privacy
+
+[Sustainable Privacy, Authenticity, and Confidentiality](sustainableprivacy.md)
+   * by Samuel M. Smith Ph.D.
+   * In the SPAC whitepaper, a protocol is described using best practices with readily available cryptographic operations to provide secure privacy, authenticity, and confidentiality. The protocol provides a foundation for best practices for what we are calling sustainable privacy.
+   * #spac #privacy #authenticity #confidentiality
+
 ### Self-Sovereign Identity
 
 * [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
@@ -172,6 +179,7 @@ _Please also enter your paper alphabetically in the form:_
 * [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
 * [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
 * [Nostr Verifiable Presentation Protocol](./NostrVP.md)
+* [Sustainable Privacy, Authenticity, and Confidentiality](sustainableprivacy.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
 * [Verifiable Crendential Issuer Verification as a Commodity](./vc-issuer-verification-as-a-commodity.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
