@@ -180,6 +180,7 @@ _Please also enter your paper alphabetically in the form:_
 * [A path towards forward secrecy in DIDComm](/advance-readings/didcomm-forward-secrecy.md)
 * [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
 * [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
+* [Designing Verifiable Computation Presentations](./verifiable-computation-presentations.md)
 * [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
 * [The Monetization of Verifiable Credential Issuer Verification](./monetization-of-vc-issuer-verification.md)
 * [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
