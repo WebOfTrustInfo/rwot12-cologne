@@ -1,6 +1,6 @@
 # Designing Verifiable Computation Presentations
 
-By: Abhishek Mahadevan Raju (TNO)
+By: [Abhishek Mahadevan Raju (TNO)](mailto:abhishek_mahadevan.raju@tno.nl)
 Version: 0.1
 
 ## Introduction
