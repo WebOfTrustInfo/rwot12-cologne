@@ -161,6 +161,11 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 - Resoling the endpoint to request VCs from a product having a DID
 - #did #vc #verifiablecredentials #supplychain #dpp
 
+[Designing Verifiable Computation Presentations](./verifiable-computation-presentations.md)
+
+- by [Abhishek Mahadevan Raju](mailto:abhishek_mahadevan.raju@tno.nl)
+- Incorporating Proof of Operation/Computation into Verifiable Presentations to facilitate scenarios requiring compelling evidence of completed computations, while potentially also maintaining privacy.
+- #vc #verifiablecredentials #verifiablepresentations #verifiablecomputations #zkp #bbs
   
 
   
