@@ -258,7 +258,7 @@ we would consider the integration of DIDComm with
 [4] Olivier Blazy et al. “How fast do you heal? A taxonomy for post-compromise security in secure-channel establishment”. In: USENIX 2023-The 32nd USENIX Security Symposium. 2023.  
 [5] Borisov, Nikita, Ian Goldberg, and Eric Brewer. "Off-the-record communication, or, why not to use PGP." Proceedings of the 2004 ACM workshop on Privacy in the electronic society. 2004.  
 [6] Trevor Perrin and Moxie Marlinspike. The double ratchet algorithm. https://signal.org/docs/specifications/doubleratchet/. 2016.  
-[7] Cohn-Gordon, Katriel, et al. "A formal security analysis of the signal messaging protocol." Journal of Cryptology 33 (2020): 1914-1983.
+[7] Cohn-Gordon, Katriel, et al. "A formal security analysis of the signal messaging protocol." Journal of Cryptology 33 (2020): 1914-1983.  
 [8] Barnes, Richard, et al. "RFC 9180: Hybrid public key encryption." (2022).  
 [9] https://datatracker.ietf.org/doc/html/rfc7518#section-4.6  
 [10] Neil Madden. Public Key Authenticated Encryption for JOSE: ECDH-1PU. Internet-Draft draft-madden-jose-ecdh-1pu-04. Work in Progress. Internet Engineering Task Force, May 2021. 21 pp. URL: https://datatracker.ietf.org/doc/draft-madden-jose-ecdh-1pu/04/.  
