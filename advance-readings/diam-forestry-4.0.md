@@ -5,7 +5,7 @@
  
 - A tool for decentralized identity and access management in Forestry 4.0.
 
-- #self-sovereign-identity #access control management #IoT #smart Forestry
+- #self-sovereign-identity #access control management #IoT #smart forestry
 
 ## Introduction
 
