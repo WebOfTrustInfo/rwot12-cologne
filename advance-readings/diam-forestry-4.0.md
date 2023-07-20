@@ -3,9 +3,9 @@
 - By:
   - [Yongli Mou](mou@dbis.rwth-Aachen.de), RWTH Aachen University, Germany
  
-- A tool for decentralized storage of individual continuing education biographies.
+- A tool for decentralized identity and access management in Forestry 4.0.
 
-- #self-sovereign-identity #access control management #IoT #smart Forestry
+- #self-sovereign-identity #access control management #IoT #smart forestry
 
 ## Introduction
 

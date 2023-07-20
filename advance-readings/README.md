@@ -128,8 +128,8 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 
 * [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
    * by Yongli Mou
-   * In the forestry sector, the application of Industry 4.0-compliant concepts, known as Forestry 4.0, holds the promise of revolutionizing forest management and conservation by offering IoT-based capabilities to monitor and manage forest resources.
-   * #self-sovereign-identity #access control management #IoT #smart Forestry
+   * Forestry 4.0, given its intrinsically decentralized and diverse framework involving multiple stakeholders and technologies, necessitates a decentralized IAM solution. This study delves into the potential application of self-sovereign identity as a viable solution to optimize access control management in Forestry 4.0 systems, thereby bolstering overall security and operational efficiency.
+   * #self-sovereign-identity #access control management #IoT #smart forestry
 
 ### Verifiable Credentials
 
