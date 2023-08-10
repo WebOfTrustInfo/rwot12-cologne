@@ -131,6 +131,11 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * Forestry 4.0, given its intrinsically decentralized and diverse framework involving multiple stakeholders and technologies, necessitates a decentralized IAM solution. This study delves into the potential application of self-sovereign identity as a viable solution to optimize access control management in Forestry 4.0 systems, thereby bolstering overall security and operational efficiency.
    * #self-sovereign-identity #access control management #IoT #smart forestry
 
+* [Echoes from History: Designing Self-Sovereign Identity with Care](./ssi-echoes-from-history)
+   * by Christopher Allen
+   * Self-sovereign identity represents an innovative new architecture for identity management. But, we must ensure that it avoids the pitfalls of previous identity systems. During World War II, two identity pioneers, the Dutch Jacobus L. Lentz and the French René Carmille, took different approaches toward the collection and recording of personally identifiable data. As a result, 75% of Dutch Jews fell victim to the Holocaust versus 23% of the Jews in France. Our foundational work on self-sovereign identity today could have similar repercussions down the road, so it’s imperative that we design this foundation responsibly with diligence and foresight
+   * #self-sovereign-identity #history #data-minimization #selective-disclosure
+
 ### Verifiable Credentials
 
 [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
@@ -182,6 +187,7 @@ _Please also enter your paper alphabetically in the form:_
 * [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
 * [Designing Verifiable Computation Presentations](./verifiable-computation-presentations.md)
 * [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
+* [Echoes from History: Designing Self-Sovereign Identity with Care](./ssi-echoes-from-history)
 * [The Monetization of Verifiable Credential Issuer Verification](./monetization-of-vc-issuer-verification.md)
 * [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
 * [Nostr Verifiable Presentation Protocol](./NostrVP.md)
