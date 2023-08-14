@@ -74,6 +74,11 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 * A tool for decentralized storage of individual continuing education biographies
 * #self-sovereign-identity #digital-identity #education #skills #distributed-ledger
 
+[Verifiable Credentials on the Ceramic Network](https://github.com/gvelez17/rwot12-cologne/blob/feat/add-advance-reading-for-vcs-over-ceramic/advance-readings/CeramicVerifiableCredentials.md)
+   * by Golda Velez
+   * A proposal for native storage and retrieval of verifiable credentials on the Ceramic Network
+   * #verifiable-credentials #decentralization #ceramic #composedb #shared-data-layer
+
 ### DIDs
 
 [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
@@ -195,3 +200,4 @@ _Please also enter your paper alphabetically in the form:_
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
 * [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
+* [Verifiable Credentials over the Ceramic Network](./CeramicVerifiableCredentials.md)

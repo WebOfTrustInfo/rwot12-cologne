@@ -1,4 +1,4 @@
-# Verifiable Credentials as ComposeDB Models 
+# Verifiable Credentials over the Ceramic Network
 
 **Authors:**
 Golda Velez (3box) <golda@3box.io>
