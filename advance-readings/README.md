@@ -171,7 +171,12 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 - by [Abhishek Mahadevan Raju](mailto:abhishek_mahadevan.raju@tno.nl) (TNO)
 - Incorporating Proof of Operation/Computation into Verifiable Presentations to facilitate scenarios requiring compelling evidence of completed computations, while potentially also maintaining privacy.
 - #vc #verifiablecredentials #verifiablepresentations #verifiablecomputations #zkp #bbs
-  
+
+[Verifiable Presentation of Linked Claim Graph](./LinkedClaims.md)
+
+- by [Golda Velez](mailto:gvelez17@gmail.com) and Philip Long
+- Validating sets of claims (verifiable credentials) linked together with multibase hashlinks or other content-hash addresses
+- #vc #verifiablepresentations #credibility #hashlinks #ceramic
 
   
 ## Alphabetical Listing
@@ -195,3 +200,4 @@ _Please also enter your paper alphabetically in the form:_
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
 * [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
+* [Verifiable Presentation of Linked Claim Graph](./LinkedClaims.md)
