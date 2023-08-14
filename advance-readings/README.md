@@ -67,6 +67,12 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * proposal to bootstrap company identity by using qualified seal certificates.
    * #qseal #eidas #ODI #vc
 
+### Credential Formats
+[Requirements towards Verifiable Credentials arising from Administrative Acts](/advance-readings/credentials-in-administrative-acts.md)
+   * by - Markus Batz (markus.batz@stadt-koeln.de),  Dr. Sebastian Zickau (Sebastian.zickau@stadt-koeln.de) 
+   * Requirements patterns to determine suitable credential formats.
+   * #credential-formats #vc
+
 ### Decentralized Platforms
 
 [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
