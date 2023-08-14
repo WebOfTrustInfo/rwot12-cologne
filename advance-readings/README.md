@@ -191,6 +191,7 @@ _Please also enter your paper alphabetically in the form:_
 * [The Monetization of Verifiable Credential Issuer Verification](./monetization-of-vc-issuer-verification.md)
 * [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
 * [Nostr Verifiable Presentation Protocol](./NostrVP.md)
+* [Requirements towards credentials in administrative acts.md](/advance-readings/credentials-in-administrative-acts.md)
 * [Sustainable Privacy, Authenticity, and Confidentiality](sustainableprivacy.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
