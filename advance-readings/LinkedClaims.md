@@ -13,6 +13,8 @@ it is necessary to know something about the DID, essentially to embed the VC in 
 The LinkedClaims vocabulary is designed for exactly this, for easily adding validations to existing claims 
 or to entities such as DIDs, in a standard and minimal vocabulary, as well as hashlinking proof documents with a multibase hash.
 
+More generally, any vocabulary may use the digestMultibase field to compose credentials in a verifiable way by including the hash field along with the link to the associated credential.
+
 A Verifiable Presentation of not only a single claim, but hashlinked supporting documents and signed claims validating the original, 
 allows the user to evaluate not only the fact of a signature but to estimate the credibility of the claim.
 
