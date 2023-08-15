@@ -89,6 +89,15 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * A proposal to achieve forward secrecy and post-compromise security via the integration of ratcheted key exchanges in DIDComm.
    * #didcomm #forward-secrecy #post-compromise-security #ratcheted-key-exchange
 
+### Explain It Like I'm Five
+
+[Explain it Like I'm Five](./Explain-it-Like-I'm-Five.pdf)
+
+- By Jack Gretsch
+- Context for those unfamiliar with the subject
+- #wikipedia #selfsovereignidentity #decentralizedidentifiers
+
+
 ### Formal Modeling
 
 [A basic conceptual model for verifiable identity](./VerifiableIdentityModel.pdf)
