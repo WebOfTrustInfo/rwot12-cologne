@@ -72,6 +72,16 @@ Simple example, is this claim with a PDF as evidence
 
 In this case, the Verifiable Presentation would not only validate the signature on the VC but also would verify if the source is retrievable and if the hash value is correct. 
 
+## Verifiable Presentations for Composable Credentials and Linked Claim Graphs
+
+In the case of a compound credential as described in [Composable Credentials](https://github.com/WebOfTrustInfo/rwot11-the-hague/blob/master/final-documents/composable-credentials.pdf), the compound credential may contain internal or nested links to individual separately signed credentials; and in the case of Linked Claims, a verifiable credential may permissionlessly (and even adversarily) vouch for or contradict another published verifiable credential.
+
+In both of these cases, the graph - the connection between the composed or linked vcs - may be verified via hashlink.
+
+In the case that the child or linked credentials are stored on the Ceramic network, they will have an address that intrinsically contains a verifiable hashlink or CID.  In the case that they are stored on some web2 url, the link to them should be accompanied by a digestMultibase field for verifying that the connected credential has not changed.
+
+While this may sound complex, the Verifiable Presentation simply has to check all links and validate by content hash. 
+
 ## **References**:
 
 [1] http://cooperation.org/credentials/v1/
