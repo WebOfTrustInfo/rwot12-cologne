@@ -74,6 +74,11 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 * A tool for decentralized storage of individual continuing education biographies
 * #self-sovereign-identity #digital-identity #education #skills #distributed-ledger
 
+[Verifiable Credentials on the Ceramic Network](https://github.com/gvelez17/rwot12-cologne/blob/feat/add-advance-reading-for-vcs-over-ceramic/advance-readings/CeramicVerifiableCredentials.md)
+   * by Golda Velez
+   * A proposal for native storage and retrieval of verifiable credentials on the Ceramic Network
+   * #verifiable-credentials #decentralization #ceramic #composedb #shared-data-layer
+
 ### DIDs
 
 [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
@@ -88,6 +93,15 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * by Dan Carez
    * A proposal to achieve forward secrecy and post-compromise security via the integration of ratcheted key exchanges in DIDComm.
    * #didcomm #forward-secrecy #post-compromise-security #ratcheted-key-exchange
+
+### Explain It Like I'm Five
+
+[Explain it Like I'm Five](./Explain-it-Like-I'm-Five.pdf)
+
+- By Jack Gretsch
+- Context for those unfamiliar with the subject
+- #wikipedia #selfsovereignidentity #decentralizedidentifiers
+
 
 ### Formal Modeling
 
@@ -149,6 +163,11 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
   * Exchanging Verifiable Credentials (VCs) and Verifiable Presentations (VPs) within the Nostr ecosystem  
   * #did #vc #verifiablecredentials #vp #verifiablepresentations #nostr
 
+[Requirements towards Verifiable Credentials arising from Administrative Acts](credentials-in-administrative-acts.md)
+   * by  Markus Batz (markus.batz@stadt-koeln.de), Dr. Sebastian Zickau (Sebastian.zickau@stadt-koeln.de)  
+   *  Verifiable Credential are supposed to be used in administrative procedures on federal, regional, and municipal level. The Intention is to replace paper-based credentials to drive digitalization whilst implementing self-sovereign identity principals, especially increasing decentralization and user privacy. On the one hand several verifiable credential formats exist covering a set of features, where some features are common to all formats and some features are specific. Administrative acts on the other hand bring in certain requirements, which determine the relevance of these features for the respective administrative act.  It is of interest whether certain pattern exists within these requirements fulfilled by certain features which allow to determine suitable or favorable verifiable credential formats for administrative acts.
+   * verifiablecredentials #federal #municipal #administration #credential-formats
+
 [Trust in Verifiable Digital Product Passport](./verifiable-product-passport.md)
 
 - by [Christian Fries](mailto:christian.fries@eecc.de)
@@ -193,11 +212,14 @@ _Please also enter your paper alphabetically in the form:_
 * [Designing Verifiable Computation Presentations](./verifiable-computation-presentations.md)
 * [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
 * [Echoes from History: Designing Self-Sovereign Identity with Care](./ssi-echoes-from-history.md)
+* [Explain it Like I'm Five](./Explain-it-Like-I'm-Five.pdf)
 * [The Monetization of Verifiable Credential Issuer Verification](./monetization-of-vc-issuer-verification.md)
 * [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
 * [Nostr Verifiable Presentation Protocol](./NostrVP.md)
+* [Requirements towards Verifiable Credentials arising from Administrative Acts](credentials-in-administrative-acts.md)
 * [Sustainable Privacy, Authenticity, and Confidentiality](sustainableprivacy.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
 * [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
+* [Verifiable Credentials over the Ceramic Network](./CeramicVerifiableCredentials.md)
 * [Verifiable Presentation of Linked Claim Graph](./LinkedClaims.md)
