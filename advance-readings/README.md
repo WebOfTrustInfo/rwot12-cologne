@@ -81,7 +81,12 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 - by [Stevan Eraković](mailto:stevan.erakovic@danubetech.com)
 - How DIDs can bring easy key management and more to Nostr
 - #nostr #dids #decentralized-identity #freedom-of-speech
-  
+
+[DID Web Method 2.0: Using DID Traits To Improve on `did:web`](./did-web-2.0.md)
+
+- by Dmitri Zagidulin, Benjamin Goering, and Juan Caballero
+- Proposed enhancements to `did:web` method resulting in a new major version.
+
 ### DIDComm
 
 [A path towards forward secrecy in DIDComm](/advance-readings/didcomm-forward-secrecy.md)
