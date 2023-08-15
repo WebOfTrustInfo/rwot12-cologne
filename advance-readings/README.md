@@ -215,6 +215,7 @@ _Please also enter your paper alphabetically in the form:_
 * [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
 * [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
 * [Designing Verifiable Computation Presentations](./verifiable-computation-presentations.md)
+* [DID Web Method 2.0: Using DID Traits To Improve on `did:web`](./did-web-2.0.md)
 * [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
 * [Echoes from History: Designing Self-Sovereign Identity with Care](./ssi-echoes-from-history.md)
 * [Explain it Like I'm Five](./Explain-it-Like-I'm-Five.pdf)
