@@ -147,11 +147,6 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 
 ### Verifiable Credentials
 
-[Requirements towards Verifiable Credentials arising from Administrative Acts](credentials-in-administrative-acts.md)
-   * by  Markus Batz (markus.batz@stadt-koeln.de), Dr. Sebastian Zickau (Sebastian.zickau@stadt-koeln.de)  
-   *  Verifiable Credential are supposed to be used in administrative procedures on federal, regional, and municipal level. The Intention is to replace paper-based credentials to drive digitalization whilst implementing self-sovereign identity principals, especially increasing decentralization and user privacy. On the one hand several verifiable credential formats exist covering a set of features, where some features are common to all formats and some features are specific. Administrative acts on the other hand bring in certain requirements, which determine the relevance of these features for the respective administrative act.  It is of interest whether certain pattern exists within these requirements fulfilled by certain features which allow to determine suitable or favorable verifiable credential formats for administrative acts.
-   * verifiablecredentials #federal #municipal #administration
-
 [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
 
 - by Gaya Blair Pendleton, Valerie Brusola, Markus Willms, and Moses Ma
@@ -162,6 +157,11 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
   * by [Imad El Aouny](mailto:imad.elaouny@mydid.com), [Frederic Martin](mailto:frederic.martin@mydid.com)  
   * Exchanging Verifiable Credentials (VCs) and Verifiable Presentations (VPs) within the Nostr ecosystem  
   * #did #vc #verifiablecredentials #vp #verifiablepresentations #nostr
+
+[Requirements towards Verifiable Credentials arising from Administrative Acts](credentials-in-administrative-acts.md)
+   * by  Markus Batz (markus.batz@stadt-koeln.de), Dr. Sebastian Zickau (Sebastian.zickau@stadt-koeln.de)  
+   *  Verifiable Credential are supposed to be used in administrative procedures on federal, regional, and municipal level. The Intention is to replace paper-based credentials to drive digitalization whilst implementing self-sovereign identity principals, especially increasing decentralization and user privacy. On the one hand several verifiable credential formats exist covering a set of features, where some features are common to all formats and some features are specific. Administrative acts on the other hand bring in certain requirements, which determine the relevance of these features for the respective administrative act.  It is of interest whether certain pattern exists within these requirements fulfilled by certain features which allow to determine suitable or favorable verifiable credential formats for administrative acts.
+   * verifiablecredentials #federal #municipal #administration
 
 [Trust in Verifiable Digital Product Passport](./verifiable-product-passport.md)
 
@@ -206,6 +206,7 @@ _Please also enter your paper alphabetically in the form:_
 * [The Monetization of Verifiable Credential Issuer Verification](./monetization-of-vc-issuer-verification.md)
 * [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
 * [Nostr Verifiable Presentation Protocol](./NostrVP.md)
+* [Requirements towards Verifiable Credentials arising from Administrative Acts](credentials-in-administrative-acts.md)
 * [Sustainable Privacy, Authenticity, and Confidentiality](sustainableprivacy.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
