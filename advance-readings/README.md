@@ -197,6 +197,7 @@ _Please also enter your paper alphabetically in the form:_
 * [Designing Verifiable Computation Presentations](./verifiable-computation-presentations.md)
 * [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
 * [Echoes from History: Designing Self-Sovereign Identity with Care](./ssi-echoes-from-history.md)
+* [Explain it Like I'm Five](./Explain-it-Like-I'm-Five.pdf)
 * [The Monetization of Verifiable Credential Issuer Verification](./monetization-of-vc-issuer-verification.md)
 * [MyEduLife](https://github.com/FatemeFathii/MyEduLife/blob/main/advance-readings/MyEduLife.md)
 * [Nostr Verifiable Presentation Protocol](./NostrVP.md)
