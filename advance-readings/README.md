@@ -125,7 +125,7 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 
 ### Key Management
 
-[Deepkey: A Fully P2P Key Management Framework](Deepkey:-A-Fully-P2P-Key-Management-Framework.md)
+[Deepkey: A Fully P2P Key Management Framework](Deepkey: A Fully P2P Key Management Framework.md)
    * by [Arthur Brock](arthur.brock@holo.host), [Collin McClain](collin.mcclain@holo.host)
    * This paper outlines a method for decentralized key management that relies only on keys and is the first of three papers outlining the digital identity building blocks provided within the Holochain ecosystem.
    * #dids #decentralized-identity #key-management #self-sovereign-identity #identity #model
