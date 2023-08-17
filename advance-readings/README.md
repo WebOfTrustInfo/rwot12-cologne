@@ -125,7 +125,7 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 
 ### Key Management
 
-[Deepkey: A Fully P2P Key Management Framework](Deepkey: A Fully P2P Key Management Framework.md)
+[Deepkey: A Fully P2P Key Management Framework](advance-readings/Deepkey-A-Fully-P2P-Key-Management-Framework.md)
    * by [Arthur Brock](arthur.brock@holo.host), [Collin McClain](collin.mcclain@holo.host)
    * This paper outlines a method for decentralized key management that relies only on keys and is the first of three papers outlining the digital identity building blocks provided within the Holochain ecosystem.
    * #dids #decentralized-identity #key-management #self-sovereign-identity #identity #model
@@ -221,7 +221,7 @@ _Please also enter your paper alphabetically in the form:_
 * [A path towards forward secrecy in DIDComm](/advance-readings/didcomm-forward-secrecy.md)
 * [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
 * [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
-* [Deepkey: A Fully P2P Key Management Framework](Deepkey:-A-Fully-P2P-Key-Management-Framework.md)
+* [Deepkey: A Fully P2P Key Management Framework](advance-readings/Deepkey-A-Fully-P2P-Key-Management-Framework.md)
 * [Designing Verifiable Computation Presentations](./verifiable-computation-presentations.md)
 * [DID Web Method 2.0: Using DID Traits To Improve on `did:web`](./did-web-2.0.md)
 * [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
