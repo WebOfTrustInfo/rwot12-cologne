@@ -1,4 +1,4 @@
-# Deepkey: Fully P2P Key Management Framework
+# Deepkey: A Fully P2P Key Management Framework
 
 By:
 
