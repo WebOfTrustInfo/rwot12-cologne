@@ -123,6 +123,13 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
    * In the forestry sector, the application of Industry 4.0-compliant concepts, known as Forestry 4.0, holds the promise of revolutionizing forest management and conservation by offering IoT-based capabilities to monitor and manage forest resources.
    * #self-sovereign-identity #access control management #IoT #smart Forestry
 
+### Key Management
+
+[Deepkey: A Fully P2P Key Management Framework](Deepkey-A-Fully-P2P-Key-Management-Framework.md)
+   * by [Arthur Brock](arthur.brock@holo.host), [Collin McClain](collin.mcclain@holo.host)
+   * This paper outlines a method for decentralized key management that relies only on keys and is the first of three papers outlining the digital identity building blocks provided within the Holochain ecosystem.
+   * #decentralized-identity #key-management #model
+
 ### Nostr
 
 [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
@@ -214,6 +221,7 @@ _Please also enter your paper alphabetically in the form:_
 * [A path towards forward secrecy in DIDComm](/advance-readings/didcomm-forward-secrecy.md)
 * [Decentralized Identity and Access Control Management in Forestry 4.0](diam-forestry-4.0.md)
 * [Decentralized Identity and Verifiable Claims for the Arts and Artists](identity-vcs-arts-artists.md)
+* [Deepkey: A Fully P2P Key Management Framework](Deepkey-A-Fully-P2P-Key-Management-Framework.md)
 * [Designing Verifiable Computation Presentations](./verifiable-computation-presentations.md)
 * [DID Web Method 2.0: Using DID Traits To Improve on `did:web`](./did-web-2.0.md)
 * [DIDs and Nostr &mdash; Key Management and More](./dids-and-nostr-key-management-and-more.md)
