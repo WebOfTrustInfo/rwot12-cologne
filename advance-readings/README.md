@@ -32,7 +32,7 @@ steep discount on the ticket price for participation to the
 event. Please obtain your discount code as follows.
 
 - Copy the link to your Pull Request (see previous section)
-- Email to [questions@weboftrust.info](mailto:questions@weboftrust.info), paste the link to the Pull Request and ask for the discount code
+- Email to [leadership@weboftrust.info](mailto:leadership@weboftrust.info), paste the link to the Pull Request and ask for the discount code
 
 Please make sure to make your Pull Request Submission BEFORE you buy
 the tickets for RWOT12, in order to apply your discount code.
