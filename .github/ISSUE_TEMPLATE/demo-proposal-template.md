@@ -1,6 +1,6 @@
 ---
 name: Demo Proposal template
-about: 'Template for RWOT Demo night proposals title: '''''
+about: 'Template for RWOT Demo night proposals title: '
 title: "[DEMO PROPOSAL] Name of Demo"
 labels: ''
 assignees: ''
