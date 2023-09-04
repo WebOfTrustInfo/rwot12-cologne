@@ -2,7 +2,7 @@
 
 ## Author
 
-[Ankur Banerjee](https://twitter.com/ankurb), CTO/co-founder at [cheqd](https://cheqd.io)
+[Ankur Banerjee](https://twitter.com/ankurb), CTO/co-founder at [Creds.xyz](https://creds.xyz) / [cheqd](https://cheqd.io)
 
 ## Context
 
