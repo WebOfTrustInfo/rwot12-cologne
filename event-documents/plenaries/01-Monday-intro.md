@@ -31,3 +31,42 @@ We also have a Coordination Team, Local Team, Facilitators, Graphic Recordings, 
 We had a greeting session when everyone talked about what brought us here; what our advanced reading was; what we find important; and on whose shoulders we stand.
 
 Then everyone added an insight to their paper and we wandered and read them all.
+
+## Closing
+
+What stands out to you? What makes you curious or excited for the week ahead?
+
+* shared language
+* different backgrounds
+* challenge accepted
+* fun arguments
+* diverse insights
+* verifiable credentials
+* different interpretations
+* capacity of expansion
+* similar directions
+* interesting topics
+* decentralized applications
+* open mindedness
+* different views
+* peer-to-peer exchanges
+* technology & application
+* breadth & depth
+* aligning mental models
+* building community
+* lively humans
+
+## Final Notes
+
+Thank You to our Sponsors!
+
+You you for joining us
+
+### Reminders
+
+* Doors open at 8
+* 8.15 breakfast
+* Start at 9
+* COVID Testing
+
+
