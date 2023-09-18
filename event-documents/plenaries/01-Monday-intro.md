@@ -30,3 +30,4 @@ We also have a Coordination Team, Local Team, Facilitators, Graphic Recordings, 
 
 We had a greeting session when everyone talked about what brought us here; what our advanced reading was; what we find important; and on whose shoulders we stand.
 
+Then everyone added an insight to their paper and we wandered and read them all.
