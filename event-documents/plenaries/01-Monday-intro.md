@@ -69,4 +69,4 @@ You you for joining us
 * Start at 9
 * COVID Testing
 
-
+_We will also be creating a collaborative drawing in two parts: the centralized world (left), the decentralized world (right), so please contribute._
