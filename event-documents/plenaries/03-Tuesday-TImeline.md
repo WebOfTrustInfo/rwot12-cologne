@@ -75,3 +75,8 @@ We had some thoughts on these discussions some looks at patterns & discussions i
 ## The Timeline of Past, Present, and Future
 
 ![](../graphic-captures/timeline/timeline1.jpeg)
+![](../graphic-captures/timeline/timeline2.jpeg)
+![](../graphic-captures/timeline/timeline3.jpeg)
+![](../graphic-captures/timeline/timeline4.jpeg)
+![](../graphic-captures/timeline/timeline5.jpeg)
+![](../graphic-captures/timeline/timeline6.jpeg)
