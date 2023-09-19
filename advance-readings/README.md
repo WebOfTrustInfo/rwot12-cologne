@@ -182,7 +182,7 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 
 [Trust in Verifiable Digital Product Passport](./verifiable-product-passport.md)
 
-- by [Christian Fries](mailto:christian.fries@eecc.de)
+- by [Christian Fries](mailto:christian.fries@eecc.de), [Sebastian Schmittner](mailto:sebastian.schmittner@eecc.de)
 - Using verifiable credentials to transform the digital product passport into a verifiable digital product passport
 - #vc #verifiablecredentials #dpp
 
