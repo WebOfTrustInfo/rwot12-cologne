@@ -209,6 +209,12 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 - Validating sets of claims (verifiable credentials) linked together with multibase hashlinks or other content-hash addresses
 - #vc #verifiablepresentations #credibility #hashlinks #ceramic
 
+[The Human Element: Threats to Trust in Self-Sovereign Identity Systems](./human-threat-elements-ssi.md)
+
+- by [Ankur Banerjee](https://twitter.com/ankurb) and Philip Long
+- Modelling human factors that could be used to undermine SSI systems using ["red team / blue team" techniques used in cybersecurity / war-gaming](https://en.wikipedia.org/wiki/Red_team).
+- #security #trust #credibility
+
 ### Zero-Knowledge Proof
 
 [ZkFundMe - A Zero-Knowledge Proof and Smart Contract Based Donation Platform](./ZkFundMe.pdf)
@@ -238,6 +244,7 @@ _Please also enter your paper alphabetically in the form:_
 * [Nostr Verifiable Presentation Protocol](./NostrVP.md)
 * [Requirements towards Verifiable Credentials arising from Administrative Acts](credentials-in-administrative-acts.md)
 * [Sustainable Privacy, Authenticity, and Confidentiality](sustainableprivacy.md)
+* [The Human Element: Threats to Trust in Self-Sovereign Identity Systems](./human-threat-elements-ssi.md)
 * [Trust in Verifiable Digital Product Passports](./verifiable-product-passport.md)
 * [Verifiable Credential Resolver (VCR) for supply chains](./verifiable-credential-resolver-for-supply-chains.md)
 * [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
