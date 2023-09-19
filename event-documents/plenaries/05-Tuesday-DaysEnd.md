@@ -1,4 +1,4 @@
-# Closing Out Day One
+# Day One: Abstracts
 
 ## Adding DID Document Updates to DID:Web
 
