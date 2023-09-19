@@ -80,3 +80,4 @@ We had some thoughts on these discussions some looks at patterns & discussions i
 ![](../graphic-captures/timeline/timeline4.jpeg)
 ![](../graphic-captures/timeline/timeline5.jpeg)
 ![](../graphic-captures/timeline/timeline6.jpeg)
+![](../graphic-captures/timeline/timeline7.jpeg)
