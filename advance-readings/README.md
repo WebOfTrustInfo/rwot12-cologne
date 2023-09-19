@@ -209,6 +209,12 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 - Validating sets of claims (verifiable credentials) linked together with multibase hashlinks or other content-hash addresses
 - #vc #verifiablepresentations #credibility #hashlinks #ceramic
 
+### Zero-Knowledge Proof
+
+[ZkFundMe - A Zero-Knowledge Proof and Smart Contract Based Donation Platform](./ZkFundMe.pdf)
+- by Ivan Dimitrov, Mikolaj Radlinski, Diana Dabboussi
+- donation platform via zero-knowledge proof
+- #zkp #donation #trust
   
 ## Alphabetical Listing
 
@@ -237,3 +243,4 @@ _Please also enter your paper alphabetically in the form:_
 * [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
 * [Verifiable Credentials over the Ceramic Network](./CeramicVerifiableCredentials.md)
 * [Verifiable Presentation of Linked Claim Graph](./LinkedClaims.md)
+* [ZkFundMe - A Zero-Knowledge Proof and Smart Contract Based Donation Platform](./ZkFundMe.pdf) 
