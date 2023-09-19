@@ -4,7 +4,7 @@
 2. Adding DID Document Updates to DID:Web
 3. The Uncanny Gap
 4. Ecosystem Management
-5.
+5. DID Exchanges: True Nostr
 6.
 7.
    
