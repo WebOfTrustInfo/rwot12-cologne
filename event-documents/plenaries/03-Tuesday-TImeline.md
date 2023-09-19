@@ -72,3 +72,6 @@ We had some thoughts on these discussions some looks at patterns & discussions i
    * Feeling safe and having security in this space.
    * Human-centric.
      
+## The Timeline of Past, Present, and Future
+
+![](../graphic-captures/timeline/timeline1.jpeg)
