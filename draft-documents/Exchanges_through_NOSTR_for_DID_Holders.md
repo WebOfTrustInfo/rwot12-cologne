@@ -8,11 +8,11 @@ Nostr is a simple, open protocol that enables global, decentralized, and censors
 
 This paper explains how two DID holders can securely :
 - establish end to end encrypted communication channels
-- request, issue, present and verify credentials
+- exchange credentials
 - send and receive text messages
  
 We will provide a simple protocol with partial implementation source code  to ensure this seamless and trusted exchanges.
 
 The protocol follows a series of steps to ensure a seamless and trusted exchange through encrypted messages :
-
-Request and issue Verifiable Credentials, request and verify Verifiable Presentations
+- Request, issue and receive Verifiable Credentials 
+- Request, issue and verify Verifiable Presentations
