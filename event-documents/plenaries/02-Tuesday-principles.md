@@ -18,3 +18,5 @@ What's important to us for collaboration?
 * Bring People Along With You, Explain Contexts
 
 ![](../graphic-captures/principlescolab.jpeg)
+![](../graphic-captures/principlescolab2.jpeg)
+
