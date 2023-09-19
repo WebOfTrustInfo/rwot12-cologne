@@ -182,7 +182,7 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 
 [Trust in Verifiable Digital Product Passport](./verifiable-product-passport.md)
 
-- by [Christian Fries](mailto:christian.fries@eecc.de)
+- by [Christian Fries](mailto:christian.fries@eecc.de), [Sebastian Schmittner](mailto:sebastian.schmittner@eecc.de)
 - Using verifiable credentials to transform the digital product passport into a verifiable digital product passport
 - #vc #verifiablecredentials #dpp
 
@@ -215,6 +215,12 @@ _Please add a level three header (`###`) for your paper's topic if it's not ther
 - Modelling human factors that could be used to undermine SSI systems using ["red team / blue team" techniques used in cybersecurity / war-gaming](https://en.wikipedia.org/wiki/Red_team).
 - #security #trust #credibility
 
+### Zero-Knowledge Proof
+
+[ZkFundMe - A Zero-Knowledge Proof and Smart Contract Based Donation Platform](./ZkFundMe.pdf)
+- by Ivan Dimitrov, Mikolaj Radlinski, Diana Dabboussi
+- donation platform via zero-knowledge proof
+- #zkp #donation #trust
   
 ## Alphabetical Listing
 
@@ -244,3 +250,4 @@ _Please also enter your paper alphabetically in the form:_
 * [Verifiable Credentials for Company Identification using eIDAS Qualified Seal Certificates](./company-identification-with-qseal-certs.md)
 * [Verifiable Credentials over the Ceramic Network](./CeramicVerifiableCredentials.md)
 * [Verifiable Presentation of Linked Claim Graph](./LinkedClaims.md)
+* [ZkFundMe - A Zero-Knowledge Proof and Smart Contract Based Donation Platform](./ZkFundMe.pdf) 
