@@ -1,6 +1,6 @@
 # Decent Identity Composer & Threat Models
 
-*ankur Bannerjee, Arthur Brock, Jack Groetsch, Collin McClain*
+*Ankur Bannerjee, Arthur Brock, Jack Gretsch, Collin McClain*
 
 ## Abstract
 
