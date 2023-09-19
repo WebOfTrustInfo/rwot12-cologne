@@ -16,3 +16,5 @@ What's important to us for collaboration?
 * Be OK to Ask for Help
 * Balance of Time to Be Creative but Not Zone Out
 * Bring People Along With You, Explain Contexts
+
+![](../graphic-captures/principlescolab.jpeg)
