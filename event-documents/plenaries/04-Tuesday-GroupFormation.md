@@ -8,5 +8,5 @@ Team We have seven teams with 2-6 members.
 4. Ecosystem Management
 5. DID Exchanges: True Nostr
 6. Verifiable Presentations of Composed Credentials
-7. Decent ID Composer & Threat Models
+7. Decentralized ID Composer & Threat Models
    
