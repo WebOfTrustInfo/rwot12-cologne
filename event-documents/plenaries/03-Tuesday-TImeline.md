@@ -50,3 +50,25 @@ We talked about what changes we'd like to make in the future and then talked abo
 * Standards that allow for multiple solutions that can work together.
 * Ability to use new cryptographic & privacy protocols so that people don't have to think about them.
 * Research & education in the world of digitization.
+
+We had some thoughts on these discussions some looks at patterns & discussions in our future hopes:
+
+* There isn't discussion of generative AI, unlike all the other conferences of 2023.
+* We all expressed ideas of using technology for good, but there isn't agreement on what's good.
+* Trust & connection between people: if we have all digital information, we can connect it together in a better way.
+* People may be using our technology to "social wash"; we should be aware of that!
+   * This is similar to the question of what's good!
+* There's a shift from institutes as existing power structure to being emergent entities.
+* We always have human perspective, but we also need identity from security perspective!
+* People can still create technology in a garage!
+* The current world is so complicated; we need to think about how to EXPLAIN it.
+* The importance of data isn't an implicit truth, but rather its provenance.
+   * Can allow risk-scoring, truth-scoring, etc., but truth of data isn't binary.
+* People need to be educated because they don't purposefully want to screw up their digital assets, and similar *we* need to be so we don't become super villains.
+* Other common themes included:
+   * Trust & Information Giving & Individual Agency.
+   * Using technology to help nature.
+   * Direct connections between people, instead of indirect system-controlled connections. A WEB OF TRUST.
+   * Feeling safe and having security in this space.
+   * Human-centric.
+     
