@@ -1,5 +1,7 @@
 # Decent Identity Composer & Threat Models
 
+*ankur Bannerjee, Arthur Brock, Jack Groetsch, Collin McClain*
+
 ## Abstract
 
 This paper proposes that all digital identity systems are made up of three core elements: digital keys, human-readable names or data; and binding mechanisms between them. This mental model can help establish a shared understanding about the options and trade-offs that developers face when building identity solutions.
