@@ -1,5 +1,7 @@
 # Timeline Activity
 
+![](../graphic-captures/timeline/timeline-full.jpg)
+
 ## Thoughts on the Past
 
 We collaboratively created a timeline of events that are important for us. Here were some insights for us:
