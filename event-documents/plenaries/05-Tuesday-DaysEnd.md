@@ -14,6 +14,8 @@ Additionally, we explore other did:methods that might operate under different na
 
 Lastly, if needed, we hope to provide a cursory feature set to make the new did:web* the best it can be!
 
+![](../graphic-captures/group-progress/group2-day1.jpeg)
+
 ## The Uncanny Gap
 
 **ABSTRACT:**
@@ -40,6 +42,8 @@ Coming at this project from the perspective of an identity wallet provider worki
 We are building of a draft piece of work from RWOT11 that looked at [SSI Stakeholder mapping](https://github.com/WebOfTrustInfo/rwot11-the-hague/blob/master/draft-documents/ssi-stakeholder-mapping.md) to understand which components of the ecosystem need to be engaged to make a technical solution work commercially. We aim to define the role of the Ecosystem Coordinator in more detail based on real-world observations. What does an Ecosystem Coordinator need to be and do to make their respective ecosystem work? In which way is a provider's business model influenced by the nature and operations of the Ecosystem Coordinator? Which barriers and accelerators exist in the ecosystem?
 
 _The group is down to two members, so they are trying to decide whether to continue._
+
+![](../graphic-captures/group-progress/group3-day1.jpeg)
 
 ## Exchanges through NOSTR for DID Holders
 
@@ -68,11 +72,15 @@ The protocol follows a series of steps to ensure a seamless and trusted exchange
 
 **VP Verification**: The decrypted VP is verified using the holder's public key obtained from the Nostr Verifier's public key repository. This step ensures the authenticity and integrity of the VP.
 
+![](../graphic-captures/group-progress/group4-day1.jpeg)
+
 ## Verifiable Presentations of Composed Credentials
 
 **ABSTRACT:**
 
 This paper introduces a novel framework for the presentation of sets of related verifiable credentials that would apply for different purposes; such as infection protection, donation, or education.The framework allows individuals to assemble multiple credentials issued by different issuers and disclose them all together as one claim to stakeholders. By composing credentials together, we can extend the usual pattern of issuer, holder, and verifier. The further challenge is to generate a credible presentation that will be compelling to stakeholders such as regulators, donors, or employers. By bridging the gap between stakeholders and the world of verifiable credentials, we provide a practical and adaptable solution for a wide range of use cases. This holistic exploration of composite credentials demonstrates their potential to address and change the way credentials are presented and verified in a variety of settings.
+
+![](../graphic-captures/group-progress/group5-day1.jpeg)
 
 ## Decentralized ID Composer & Threat Models
 
@@ -83,6 +91,8 @@ This paper proposes that all digital identity systems are made up of three core 
 Using examples from current identity systems, we illustrate how particular design choices made about the three core elements affect the security & privacy of such systems. We explore a non-exhaustive range of options for each of the core elements, and highlight the benefits and trade-offs in each approach.
 
 Finally, we propose a form of pseudocode configuration definition language that can be used descriptively and succinctly model design decisions. This configuration definition language is also machine-readable, and could be used to configure the set-up and operation of components of decentralized applications.
+
+![](../graphic-captures/group-progress/group6-day1.jpeg)
 
 ## Privacy Analysis of Singlebit vs Multibit Status Lists
 
