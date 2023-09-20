@@ -30,6 +30,8 @@ reality and its perception, interpretation, or representation in information
 systems. Instead of trying to close this gap, digital systems should be 
 designed to establish a sense of truth that is good enough for its needs. 
 
+![](../graphic-captures/group-progress/group1-day1.jpeg)
+
 ## Ecosystem Management
 
 **ABSTRACT:**
