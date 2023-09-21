@@ -14,6 +14,8 @@ That's the problem that creds.xyz seeks to solve!
 
 VCs, can verify attendance at events, can link it into social media events.
 
+At [app.creds.xyz](https://app.creds.xyz/).
+
 ## A Credential Profile Comparison Matrix: The Next Generation
 
 RWOT11 saw the production of a [profile comparison matrix](https://github.com/WebOfTrustInfo/rwot11-the-hague/blob/master/final-documents/credential-profile-comparison.pdf) for many sorts of verifiable credentials.
@@ -29,3 +31,16 @@ For this to work, a QR code pretty much needs to show a URL.
 Can lead to a page that fetches verifiable credentials for the product and displays them all, including info on who issued them, full verifiable presentation, etc. Can aggregate VCs from different issuers! Can have private VCs! 
 
 The unique thing here is identity of PRODUCT, not identity of PEOPLE, and this is a use case where the product probably doesn't have a wallet and so isn't a holder. 
+
+Includes a [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link).
+
+## Godiddy
+
+Hosted platform that makes it easy for SSI developers and solution providers to work with DIDs.
+
+A playground for creating, updating, resolving, deactivating, and searching `did:ion` DIDs.
+
+At [GoDiddy.com](https://godiddy.com/).
+
+Info on DID usage at [stats.godiddy.com](https://stats.godiddy.com).
+
