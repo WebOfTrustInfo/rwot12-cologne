@@ -82,3 +82,4 @@ Keys are used to manage keys, without using names or other identifiers.
 
 Can unify keys from multiple devices. 
 
+Can even reconstruct keys from seeds.
