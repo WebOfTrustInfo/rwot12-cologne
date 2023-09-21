@@ -68,6 +68,17 @@ Last year, wrote [Composing Credentials via LinkedClaims and Cryptographic Bindi
 
 Core idea: want to be able to trust not just that a credential is signed, but *why* you care about a credential.
 
-Can validate VCs yourself, because the VC isn't the end point. It's about people attesting to the VC! Creating a social graph.
+Can validate VCs yourself, because the VC isn't the end point. It's about people attesting to the VC! Creating a social graph. Can also include additional info on how you know something, what the confidence level is. The point is to connect them together.
 
 Live example at [live.linkedtrust.us](https://live.linkedtrust.us/feed).
+
+## Deepkey Explorer (Arthur)
+
+Been considered DPKIs since working on a [DPKI paper](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/dpki.pdf) back at RWOT1.
+
+Deepkey is a peer-to-peer key management system.
+
+Keys are used to manage keys, without using names or other identifiers.
+
+Can unify keys from multiple devices. 
+
