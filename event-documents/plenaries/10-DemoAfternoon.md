@@ -61,3 +61,13 @@ Private company use cases have high costs for implementation of VCs, and it does
 Hence, Payment Rails, which require payments to unlock encrypted status lists. Verifier can see a VC is valid, but if they want to see its current status (revoked or not), they have to make a payment!
 
 For more see [Cheqd's Credential Service API](https://credential-service.cheqd.net/swagger/).
+
+## Linked Trust (Golda)
+
+Last year, wrote [Composing Credentials via LinkedClaims and Cryptographic Binding](https://github.com/WebOfTrustInfo/rwot11-the-hague/blob/master/final-documents/composable-credentials.pdf). 
+
+Core idea: want to be able to trust not just that a credential is signed, but *why* you care about a credential.
+
+Can validate VCs yourself, because the VC isn't the end point. It's about people attesting to the VC! Creating a social graph.
+
+Live example at [live.linkedtrust.us](https://live.linkedtrust.us/feed).
