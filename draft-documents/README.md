@@ -13,6 +13,10 @@ This paper will explore a few recent suggestions for enhancing the did:web metho
 
 This paper outlines the digital identity tools that Holochain provides. These tools are built to support our ecosystem of applications, giving them important tools for managing identities both within and between application spaces. Beyond that, we are developing standards, gateways, and other tools for connecting to other Web2 and Web3 systems. We believe that these tools could also be used as individual components in other digital identity systems, extending their capacities.
 
+## [**The Ecosystem Coordinator’s role in SSI ecosystem management**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/ecosystem-management.md)
+
+The analysis builds on a draft piece of work from RWOT11 that developed an Enterprise SSI stakeholder map to improve our understanding of which components in an SSI ecosystem need to be engaged to make a technical solution work commercially. The project aims to assess the role of the Ecosystem Coordinator in more detail based on real-world observations. What does an Ecosystem Coordinator need to be and do to make their respective ecosystem work? In which way is a service provider's business model influenced by the nature and operations of the Ecosystem Coordinator? Which barriers and accelerators exist in the ecosystem?
+
 ## [**Exchanges through NOSTR for DID Holders**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/Peer_to_peer_credentials_through_NOSTR)
    * Imad El Aouny & Frederic Martin
 
@@ -22,5 +26,3 @@ This paper explains how two DID holders can securely :
 - establish end to end encrypted communication channels
 - exchange credentials
 - send and receive text messages
-
-- 
