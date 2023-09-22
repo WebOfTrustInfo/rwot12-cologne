@@ -164,6 +164,10 @@ The embedding scenario is similar to a chaining process. The difference (may) be
 
 In this workflow, third parties can add attestations to existing credentials, thereby enhancing their credibility. For example, after verifying a student's academic credentials, an employer could add an attestation that the student has been hired and has demonstrated certain skills on the job.
 
+### Permissionless Presentation Workflow
+
+In the case where Verifiable Credentials are available in a public shared data stream, any individual may collect a set and sign a presentation containing them.  Effectively anyone with read access to the signed credentials may act as the "Holder" and create a presentation.  This may be particularly useful for auditors or journalistic use cases.
+
 
 Each of these workflows offers its own set of advantages and challenges, and the choice of workflow would depend on the specific requirements of the use case at hand. By understanding and leveraging these different workflows, we can create more flexible, robust, and user-friendly systems for credential verification.
 
