@@ -10,10 +10,12 @@ But take a look at what we've done so far!
 This paper will explore a few recent suggestions for enhancing the did:web method, in particular did:webplus and did:webs. Shortcomings of did:web are analyzed and a list of necessary features to overcome real problems is assembled. We strive to avoid the problem mentioned in the above comic and answer the question, whether the did web method can be improved without creating yet another (few) did methods.
 
 ## [**Composing Self-Sovereign Identity for Web3 Applications**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/decent_id_composer_and_threats.md)
+   * Arthur Brock, Collin McClain
 
 This paper outlines the digital identity tools that Holochain provides. These tools are built to support our ecosystem of applications, giving them important tools for managing identities both within and between application spaces. Beyond that, we are developing standards, gateways, and other tools for connecting to other Web2 and Web3 systems. We believe that these tools could also be used as individual components in other digital identity systems, extending their capacities.
 
 ## [**The Ecosystem Coordinator’s role in SSI ecosystem management**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/ecosystem-management.md)
+   * Christiane Wirrig, PhD
 
 The analysis builds on a draft piece of work from RWOT11 that developed an Enterprise SSI stakeholder map to improve our understanding of which components in an SSI ecosystem need to be engaged to make a technical solution work commercially. The project aims to assess the role of the Ecosystem Coordinator in more detail based on real-world observations. What does an Ecosystem Coordinator need to be and do to make their respective ecosystem work? In which way is a service provider's business model influenced by the nature and operations of the Ecosystem Coordinator? Which barriers and accelerators exist in the ecosystem?
 
