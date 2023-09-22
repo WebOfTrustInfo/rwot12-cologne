@@ -24,6 +24,8 @@ RWOT11 saw the production of a [profile comparison matrix](https://github.com/We
 
 It has now been [moved to GitHub as JSON schema](https://github.com/openwallet-foundation/credential-format-comparison-sig) that can be automatically displayed! It supports 3 million combinations, so that you can choose exactly what your needs are, and then see the profiles that meet these needs.
 
+![](/event-documents/pictures/demo-night/demo2-credprofiles.jpeg)
+
 ## Digital Product Passport (Sebastian)
 
 You can have digital passport for products.
@@ -36,6 +38,8 @@ The unique thing here is identity of PRODUCT, not identity of PEOPLE, and this i
 
 Includes a [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link).
 
+![](/event-documents/pictures/demo-night/demo3-passport.jpeg)
+
 ## Godiddy (Zaïda)
 
 Hosted platform that makes it easy for SSI developers and solution providers to work with DIDs.
@@ -45,6 +49,8 @@ A playground for creating, updating, resolving, deactivating, and searching `did
 At [GoDiddy.com](https://godiddy.com/).
 
 Info on DID usage at [stats.godiddy.com](https://stats.godiddy.com).
+
+![](/event-documents/pictures/demo-night/demo4-godiddy.jpeg)
 
 ## did:directory (Joe)
 
@@ -56,6 +62,8 @@ Simple listings, but you can claim you entry to add info if you have W3C contact
 
 At [diddirectory.com](https://diddirectory.com/)
 
+![](/event-documents/pictures/demo-night/demo5-directory.jpeg)
+
 ## Cheqd Payment Rails (Ankur)
 
 Private company use cases have high costs for implementation of VCs, and it doesn't help the issuer, it just helps the customer to leave!
@@ -63,6 +71,8 @@ Private company use cases have high costs for implementation of VCs, and it does
 Hence, Payment Rails, which require payments to unlock encrypted status lists. Verifier can see a VC is valid, but if they want to see its current status (revoked or not), they have to make a payment!
 
 For more see [Cheqd's Credential Service API](https://credential-service.cheqd.net/swagger/).
+
+![](/event-documents/pictures/demo-night/demo6-paymentrails.jpeg)
 
 ## Linked Trust (Golda)
 
@@ -74,6 +84,8 @@ Can validate VCs yourself, because the VC isn't the end point. It's about people
 
 Live example at [live.linkedtrust.us](https://live.linkedtrust.us/feed).
 
+![](/event-documents/pictures/demo-night/demo7-linkedtrust.jpeg)
+
 ## Deepkey Explorer (Arthur)
 
 Been considered DPKIs since working on a [DPKI paper](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/dpki.pdf) back at RWOT1.
@@ -83,5 +95,8 @@ Deepkey is a peer-to-peer key management system.
 Keys are used to manage keys, without using names or other identifiers.
 
 Can unify keys from multiple devices. 
+
+![](/event-documents/pictures/demo-night/demo8-deepkey.jpeg)
+
 
 Can even reconstruct keys from seeds.
