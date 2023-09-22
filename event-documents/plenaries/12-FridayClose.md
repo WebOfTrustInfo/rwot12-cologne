@@ -43,3 +43,5 @@ A few talks on Signal, and fleshed out initial notes.
 Chaotic process. Worked on use cases, then similarities and differences, then demos that showed process/workflow. The group was somewhat split among three use cases and also among what technologies they wanted to use. Ultimately decided to use a technology for the use cases.
 
 The real advantage was getting to work face-to-face, not remotedly.
+
+
