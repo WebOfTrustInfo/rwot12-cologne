@@ -40,6 +40,10 @@ This paper explains how two DID holders can securely:
 
 To be clear, this paper is not proposing that self-sovereign identity or its end-goals of improving individuals’ data autonomy and privacy should be abandoned. We celebrate the massive gains the SSI community has won against the current, entrenched models of technology & data. At the same time, the paper explores topics that could pragmatically improve adoption of SSI in the next 1-5 years.
 
+## [**Mind the Gap**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/uncanny-gap.md)
+
+Digital systems wrestle with the same question that mankind always has: "what is truth?" From a philosophical perspective, many acknowledge the limits of what is fundamentally knowable. However, many digital identity advocates pursue the goal of determining one's "true identity" as a precondition for providing services. The issue with this goal is that it conflates what is "true", as in what exists in objective reality, with the perceptions and beliefs of an individual person or system. We call this phenomenon "the uncanny gap": the insurmountable difference between physical reality and its perception, interpretation, or representation in information systems. Instead of trying to close this gap, digital systems should be designed to establish a sense of truth that is good enough for its needs.
+
 ## [**Multibit Status List Tradeoffs**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/multibit.md)
 
 * Joe Andrieu & Manu Sporny
@@ -47,10 +51,6 @@ To be clear, this paper is not proposing that self-sovereign identity or its end
 Status Lists are used with Verifiable Credentials to provide a privacy-enabling mechanism for revocation and suspension. Used as intended, Verifiers are able to anonymously retrieve and use a Status List to check the currency of a given credential, without revealing to the Issuer which credential is being checked. This approach avoids the "phone home" problem where Verifiers directly communicate with Issuers during verification.
 
 We consider two classes of Status Lists, "Boolean" and "Multivalue" lists and analyze the privacy impact of the differences between the two. Boolean lists expose a single boolean value for each entry in a list, correlating to a single binary entry for each Verifiable Credential whose status is managed by that list. Multivalue lists provide for arbitrary values in each entry with explicit, custom semantics describing the meaning of potential value, thus allowing Credentials whose status check reveals sophisticated knowledge about the credential.
-
-## [**The Uncanny Gap**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/uncanny-gap.md)
-
-Digital systems wrestle with the same question that mankind always has: "what is truth?" From a philosophical perspective, many acknowledge the limits of what is fundamentally knowable. However, many digital identity advocates pursue the goal of determining one's "true identity" as a precondition for providing services. The issue with this goal is that it conflates what is "true", as in what exists in objective reality, with the perceptions and beliefs of an individual person or system. We call this phenomenon "the uncanny gap": the insurmountable difference between physical reality and its perception, interpretation, or representation in information systems. Instead of trying to close this gap, digital systems should be designed to establish a sense of truth that is good enough for its needs.
 
 ## [**Verifiable Presentation of Composed Credentials**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/verifiable_presentation_of_composed_credentials.md)
 
