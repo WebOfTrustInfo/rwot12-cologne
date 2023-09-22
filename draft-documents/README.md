@@ -29,6 +29,11 @@ This paper explains how two DID holders can securely :
 - exchange credentials
 - send and receive text messages
 
+## [**Leading with a Different Pitch: Data Portability, Rather Than Privacy**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/a-different-pitch.md)
+   * Ankur Banerjee & Jack Gretsch
+
+To be clear, this paper is not proposing that self-sovereign identity or its end-goals of improving individuals’ data autonomy and privacy should be abandoned. We celebrate the massive gains the SSI community has won against the current, entrenched models of technology & data. At the same time, the paper explores topics that could pragmatically improve adoption of SSI in the next 1-5 years.
+
 ## [**Multibit Status List Tradeoffs**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/multibit.md)
    * Joe Andrieu & Manu Sporny
 
