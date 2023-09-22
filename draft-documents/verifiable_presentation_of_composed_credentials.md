@@ -60,6 +60,9 @@ An attestation is an extra layer of verification added to a credential by a thir
 
 This concept involves making a set of credentials publicly available for anyone to verify. This is often used in scenarios where transparency is important, such as public registries or open-source projects.
 
+![image](https://github.com/gvelez17/rwot12-cologne/assets/798887/73e7a18b-b79c-4d6b-8039-e9d23c2e5e27)
+
+
 ## Use cases
 
 ### Food
