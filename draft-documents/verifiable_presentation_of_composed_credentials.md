@@ -31,6 +31,9 @@ Hence, we propose several methods of presenting composed credentials, that may p
 
 This concept refers to the practice of bundling several credentials together in a single package for the purpose of verification. Instead of verifying each credential individually, the bundled set can be verified all at once, making the process more efficient.
 
+![image](https://github.com/gvelez17/rwot12-cologne/assets/798887/f619c573-330f-4935-a647-6093e1dbe624)
+
+
 #### Composing two or more linked credentials
 
    ##### Linking Credentials by Common Subject
