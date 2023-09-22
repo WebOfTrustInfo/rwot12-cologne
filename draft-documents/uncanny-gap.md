@@ -1,9 +1,5 @@
----
-subtitle: |
-    []{#_8vxii87r4bm7 .anchor}How we can never know the truth and what we
-    can do instead
-title: '[]{#_klgc0wyq3mgd .anchor}The Uncanny Gap'
----
+# The Uncanny Gap
+How we can never know the truth and what we can do instead
 
 Abstract
 --------
