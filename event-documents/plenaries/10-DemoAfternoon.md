@@ -16,6 +16,8 @@ VCs, can verify attendance at events, can link it into social media events.
 
 At [app.creds.xyz](https://app.creds.xyz/).
 
+![](/event-documents/pictures/demo-night/demo1-creds.jpeg)
+
 ## A Credential Profile Comparison Matrix: The Next Generation (Mirko)
 
 RWOT11 saw the production of a [profile comparison matrix](https://github.com/WebOfTrustInfo/rwot11-the-hague/blob/master/final-documents/credential-profile-comparison.pdf) for many sorts of verifiable credentials.
