@@ -22,7 +22,7 @@ This paper outlines the digital identity tools that Holochain provides. These to
 
 The analysis builds on a draft piece of work from RWOT11 that developed an Enterprise SSI stakeholder map to improve our understanding of which components in an SSI ecosystem need to be engaged to make a technical solution work commercially. The project aims to assess the role of the Ecosystem Coordinator in more detail based on real-world observations. What does an Ecosystem Coordinator need to be and do to make their respective ecosystem work? In which way is a service provider's business model influenced by the nature and operations of the Ecosystem Coordinator? Which barriers and accelerators exist in the ecosystem?
 
-## [**Exchanges through NOSTR for DID Holders**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/Peer_to_peer_credentials_through_NOSTR)
+## [**Exchanges through NOSTR for DID Holders**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/Peer_to_peer_credentials_through_NOSTR.md)
 
 * Imad El Aouny & Frederic Martin
 
