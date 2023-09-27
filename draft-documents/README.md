@@ -10,7 +10,7 @@ But take a look at what we've done so far!
 
 This paper will explore a few recent suggestions for enhancing the did:web method, in particular did:webplus and did:webs. Shortcomings of did:web are analyzed and a list of necessary features to overcome real problems is assembled. We strive to avoid the problem mentioned in the above comic and answer the question, whether the did web method can be improved without creating yet another (few) did methods.
 
-## [**Composing Self-Sovereign Identity for Web3 Applications**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/decent_id_composer_and_threats.md)
+## [**Composing Self-Sovereign Identity for Web3 Applications**](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/draft-documents/Composing SSI for Web3 Apps.md)
 
 * Arthur Brock, Collin McClain
 
