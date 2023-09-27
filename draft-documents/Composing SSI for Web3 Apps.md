@@ -159,9 +159,9 @@ Conclusion text goes here...
 * [PnP spec](https://hackmd.io/0fz2cLutTz-sE13ev1ukrw?both)
 * CnC spec# Decent Identity Composer & Threat Models
 
-*Ankur Bannerjee, Arthur Brock, Jack Gretsch, Collin McClain*
+## Old Abstract
 
-## Abstract
+*Ankur Bannerjee, Arthur Brock, Jack Gretsch, Collin McClain*
 
 This paper proposes that all digital identity systems are made up of three core elements: digital keys, human-readable names or data; and binding mechanisms between them. This mental model can help establish a shared understanding about the options and trade-offs that developers face when building identity solutions.
 
