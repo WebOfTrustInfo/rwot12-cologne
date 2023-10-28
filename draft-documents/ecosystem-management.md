@@ -21,7 +21,7 @@ Lacity et al. (2023) have analysed three different SSI ecosystems and concluded 
 ## NACS ecosystem - US convenience stores
 The [National Association of Convenience Stores (NACS)](https://www.convenience.org/) is a trade association for convenience and fuel retailing stores. There are nearly 150,000 convenience stores operating in the United States (NACS, 2022) that each perform dozens of age checks every day to sell alcohol or other age-restricted items. Assuming the role of Ecosystem Coordinator, NACS has been fundamental in driving the development of a W3C verifiable credential-based (W3C, 2022) tool for the facilitation of age checks that leverages people’s driver’s licences and any participating point-of-sale and payment system ([TruAge](https://www.mytruage.org/); Businesswire, 2021). 
 
-However, NACS itself is not the credential issuer; TruAge is. TruAge offers the issuance and verification service within this ecoysystem and has been set up as a not-for-profit entity that is funded by the manufacturers of age-restricted products. Originally, system development was funded by NACS membership fees and TruAge sponsors.  TruAge is well-positioned to take over as Ecosystem Coordinator, as it connects its technical integrators, manufacturers, retailers and consumers, whereas NACS focuses on retailer interests.
+However, NACS itself is not the credential issuer; TruAge is. TruAge offers the issuance and verification service within this ecoysystem and has been set up as a not-for-profit entity that is funded by the manufacturers of age-restricted products. Originally, system development was funded by NACS membership fees and TruAge sponsors. TruAge is well-positioned to take over as Ecosystem Coordinator, as it connects its technical integrators, manufacturers, retailers and consumers, whereas NACS focuses on retailer interests.
 
 In principle, the reliance on open standards enables technical interoperability and, thus, allows any digital SSI wallet provider, issuer or point-of-sale vendor to enter this ecosystem.
 
@@ -55,15 +55,32 @@ To arrive at a common worldwide standard, the ISO/IEC 18013 series (refer to [se
 
 STA appears to act in the role of an Ecosystem Coordinator (STA, 2020; STA 2021).
 
-# Conclusions (To Do)
-- OCI vs mDL: grass roots vs big tech, legislators & industry bodies getting involved, international ISO vs own specs
-- IDunion: politically challenging complex regulatory and uncertain environment
-- NACS: Where’s the tech ecosystem and own standards? Seems only 1 player. issuer = EC. competitiveness?
-- Need strong driver with established links to external decision makers and primary interest in success of tech approach
-- As part of its coordinating role in support of adoption and service interoperability, OCI lists those providers that have attested compliance with its conformance criteria.
+# Conclusions
+The Ecosystem Coordinator's main purpose is to chaperone ecosystem participants and help coordinate and represent their interests. Thanks to its central position it has a unique overivew of the ecosystem, is able to gather recognition from inside and outside of the immediate ecosystem and is to keep the concerted arrangements between ecosystem participants alive during and beyond the initial "Sturm and Drang" of ecosystem formation.
+
+Moving beyond general abstraction, the discussed use cases provide some useful insights of very tangible functions an Ecosystem Coordinator can or even should fulfil.
+
+### Standardisation
+Common technology standards help ensure service interoperability and minimum quality. Shared governance standards provide structure.
+
+OCI has taken a grassroots approach largely driven by industry-specific service providers with backing from certain service users and industry bodies. In addition to leveraging existing accepted technology standards, OCI developed its own use case-specific criteria and formalised these in a bespoke Interoperability Profile. In contrast, the mDL ecosystem has taken a much more public and institutional approach driven by big tech service providers, joined by legislators and industry bodies. They went straight for the creation of international ISO/IEC standards.
+
+In terms of governance, OCI has developed and published its own rules of the game as an open-source community without cementing itself yet in a legal framework. Whereas IDunion has gone to the length of founding a European cooperative.
+
+### Mediation & Representation
+With SSI being an ecosystem technology, the Ecosystem Coordinator must be a strong driver with either established links to decision makers or the ability to form such connections. 
+
+NACS has used its exting position to facilitate the emergence of a technological solution and obtain buy-in from key industry players by representing its members and addressing the needs of others in the ecosystem. IDunion has had to deal with a politically challenging, complex regulatory and overall uncertain environment.
+
+### Championing
+The Ecosystem Coordinator must understand the value of the SSI approach and have a primary interest in the success of the resulting technological solutions. If not even the Ecosystem Coordinator waves the service providers' flag, who will? 
+
+This can be as simple as maintaining a public list of those service providers invovled or compliant with the ecosystem standards like OCI does.
 
 # Limitations
 My goal was to complete the entire article during the RWOT12 week with a small allowance for additional conclusions and inclusion of feedback on the draft piece thereafter. Due to these time constraints, I could not dive as deeply into each case study as I had hoped. One case study demonstrating an established Ecosystem Coordinator that was brought to my attention during RWOT12 revolves around the [Car Connectivity Consortium](https://carconnectivity.org/). Sadly, there was no time left to explore this further.
+
+Through my active involvement in OCI, I have more insights in this ecosystem than any of the other ones discussed here. Thus, it is likely that I have missed to discuss details and considerations in other ecosystems that I have covered for OCI.
 
 # Contributions
 I am grateful for inspiration and information gathered from fellow RWOT12 participants and all those little side conversations with various RWOT12 attendees. In particular, my understanding of the following use cases was given more colour by:
