@@ -4,7 +4,12 @@ Christiane Wirrig, PhD - [Spherity](https://www.spherity.com/), [Blue Steens](ht
 # Abstract
 Taking the perspective of an identity wallet provider working to establish a financially sustainable business, the core question is, "Why is it so hard?" 
 
-The analysis builds on a draft piece of work from [RWOT11](https://www.weboftrust.info/events/#rwot-11-the-hague-2022) that developed an [Enterprise SSI stakeholder map](https://github.com/WebOfTrustInfo/rwot11-the-hague/blob/master/draft-documents/ssi-stakeholder-mapping.md) to improve our understanding of which components in an SSI ecosystem need to be engaged to make a technical solution work commercially. This short project assesses the role of the Ecosystem Coordinator in more detail based on real-world observations. What does an Ecosystem Coordinator need to be and do to make their respective ecosystem work?
+The analysis builds on a draft piece of work from [RWOT11](https://www.weboftrust.info/events/#rwot-11-the-hague-2022) that developed an [Enterprise SSI stakeholder map](https://github.com/WebOfTrustInfo/rwot11-the-hague/blob/master/draft-documents/ssi-stakeholder-mapping.md) to improve our understanding of the components in an SSI ecosystem that need to be engaged to make a technical solution work commercially. It transpired that an entity called the *Ecosystem Coordinator* plays a fundamental part in the orchestration of an SSI ecosystem. This short RWOT12 project assesses the role of the Ecosystem Coordinator in more detail based on real-world observations. What does an Ecosystem Coordinator need to be and do to make their respective ecosystem work?
+
+The results point towards three significant areas that require the Ecosystem Coordinator's attention and perseverance: 
+- Standardisation to provide a common foundation and clear rules for both technology and ecosystem governance;
+- Representation of ecosystem stakeholders in- and outside of the immediate ecosystem;
+- Championing of the ecosystem's risk takers (usually solution providers).
 
 # Introduction
 Carsten Stöcker’s “5 Critical Success Factors” for blockchain-based solutions highlight the importance of developing a complete ecosystem to drive adoption and collaboration (Brumnik, 2023). This involves gaining the support for the business case from all relevant stakeholders. An indispensable foundation stone is the development and monitoring of a trust framework. Consequently, a key question arises, “Who takes care of all this?”
