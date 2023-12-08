@@ -2,6 +2,8 @@
 
 _This is a listing for the RWOT12 papers to date. [Several more](../draft-documents/README.md) are in process._
 
+[we expect 3-6 papers to appear over the next several months.]
+
 # Rebooting the Web of Trust XII (Fall 2023) Final Drafts
 
 _Final drafts are complete, polished papers that were not released as full RWOT papers because they did not meet all of the criteria for publication. Usually, this means that they were work of one person or one organization, working and being supporting within the workshop environment, but ultimately finalizing the paper on their own._
