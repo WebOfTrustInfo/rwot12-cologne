@@ -6,7 +6,7 @@ _This is a listing for the RWOT12 papers to date. [Several more](../draft-docume
 
 # Rebooting the Web of Trust XII (Fall 2023) Final Drafts
 
-_Final drafts are complete, polished papers that were not released as full RWOT papers because they did not meet all of the criteria for publication. Usually, this means that they were work of one person or one organization, working and being supporting within the workshop environment, but ultimately finalizing the paper on their own._
+_Final drafts are complete, polished papers that were not released as full RWOT papers because they did not meet all of the criteria for publication. Usually, this means that they were the product of one person or one organization, working and being supported within the workshop environment, but ultimately finalizing the paper on their own._
 
 ## [*The Ecosystem Coordinator’s Role in SSI Ecosystem Management*](../draft-documents/ecosystem-management.md)
 
