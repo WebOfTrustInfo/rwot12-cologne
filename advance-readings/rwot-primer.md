@@ -154,7 +154,7 @@ At this stage, the Lead Author also needs to decide how to list each member: as 
 
 #### Crediting Authorship 
 
-Rebooting the Web of Trust uses the AMA guidelines for determining authorship: https://www.amamanualofstyle.com/view/10.1093/jama/9780195176339.001.0001/med-9780195176339-div2-120
+Rebooting the Web of Trust uses the [AMA guidelines for determining authorship](https://www.google.com/books/edition/AMA_Manual_of_Style/Dy3JDwAAQBAJ?hl=en&gbpv=1&dq=%22All+authors+should+have+participated+sufficiently+in+the+work+to+take+public+responsibility%22&pg=PT205&printsec=frontcover): 
 
 > All authors should have participated sufficiently in the work to take public responsibility for the content, either all of the work or an important part of it. To take public responsibility, an author must be able to defend the content (all or an important part) and conclusions of the article if publicly challenged. Sufficient participation means that substantial contributions have been made in each of the following areas:
 > 1. Conception and design of the work; or acquisition, analysis, or interpretation of the data for the work; and
