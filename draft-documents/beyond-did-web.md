@@ -13,18 +13,18 @@
 
 ## Abstract
 
-This paper will explore a few recent suggestions for enhancing the did:web
-method, in particular did:webplus and did:webs. Shortcomings of did:web are
+This paper will explore a few recent suggestions for enhancing the `did:web`
+method, in particular `did:webplus` and `did:webs`. Shortcomings of `did:web` are
 analyzed and a list of necessary features to overcome real problems is
-assembled. We strive to avoid the problem mentioned in the above comic and
-answer the question, whether the did:web method can be improved without creating
+assembled. We strive to avoid the problem mentioned in the [classic xkcd comic on standards](https://imgs.xkcd.com/comics/standards.png) and
+investigate whether the did:web method can be improved without creating
 yet another (few) DID methods.
 
 To begin, we will evaluate the current did:web specification. We will use our
-shared experiences implementing did:web and published articles to create an
+shared experiences implementing did:web as well as published articles to create an
 exhaustive list of the feature set and known gaps or security implications.
 Understanding business requirements and use cases is important. This paper
-explains the practical applications and of businesses needs that did:web aims to
+explains the practical applications and businesses needs that did:web aims to
 fill. A detailed discussion on the features of did:web is presented, drawing
 from experiences with existing working code and real-world applications.
 
@@ -37,7 +37,7 @@ highlighting their contributions and guidelines that shape the future of
 did:web.
 
 Lastly, if needed, we hope to provide a cursory feature set to make the new
-did:web\* the best it can be!
+`did:web\*` the best it can be!
 
 ## Introduction
 
@@ -64,48 +64,44 @@ the core concepts of decentralized identities before diving into more complex
 and specialized DID methods. Below, we explore the key advantages of starting
 with `did:web`.
 
-**Ease of Use**: `did:web` is often considered simpler to understand and
+**Ease of Use:** `did:web` is often considered simpler to understand and
 implement. It operates over standard HTTPS protocols and can be easily managed
 with familiar, widely available, robust and cheap web server technology.
 
-**Simple discoverability** Compared to ledger-based DID methods, which may
+**Simple discoverability:** Compared to ledger-based DID methods, which may
 require ledger-aware software not just for verification but even for basic
-discovery, resolving a DID to its DID document for did:web is straightforward.
-Discovering and resolving the did:web DID document relies on proven DNS
-technology Compared to standalone approaches like did:key and did:jwk, the did
-document can be requested by knowing only the identifier of the did, reducing
-the size of the id and allows to update the DID document in the future.
+discovery, resolving a DID to its DID document for `did:web` is straightforward.
+Discovering and resolving the `did:web` DID document relies on proven DNS
+technology. Compared to standalone approaches like `did:key` and `did:jwk`, the DID
+document can be requested by knowing only the identifier of the DID, reducing
+the size of the id and allowing for the update of the DID document in the future.
 
-**No Specialized Infrastructure**: Unlike some other DID methods that require
+**No Specialized Infrastructure:** Unlike DID methods that require
 special nodes or decentralized networks, `did:web` works on existing web
 infrastructure.
 
-**Low Cost**: Unlike ledger based DID methods, `did:web` does not have an
+**Low Cost:** Unlike ledger-based DID methods, `did:web` does not have an
 associated cost other than maintaining a web server.
 
-**Interoperability**: `did:web` identifiers can be easily mapped to existing
+**Interoperability:** `did:web` identifiers can be easily mapped to existing
 HTTPS URLs, making it straightforward to integrate with current web
 architectures.
 
 ### Main criticisms
 
-Although did:web is easy to use and provides a good starting point into the
-decentralized identity space, using did:web also has some limitations, the three
+Although `did:web` is easy to use and provides a good entry point for the
+decentralized identity space, using `did:web` also has some limitations, the three
 most prominent limitations being:
 
-1. No trustworthiness
-2. Historical DID document resolution
-3. No DID document integrity check
-
-**No trustworthiness** The main criticism of the did:web method for
-decentralized identities is its inability to provide trustworthiness over the
-information it handles. While did:web is beneficial for publishing and
+**No trustworthiness:** The main criticism of the `did:web` method for
+decentralized identities is its inability to ensure trust for the
+information it handles. While `did:web` is beneficial for publishing and
 discovering DID documents, using familiar web mechanisms for this purpose is not
 suited for evaluating their trustworthiness. The current web infrastructure is
-rife with vulnerabilities like website hacking, DNS hijacking, and unreliable
+rife with vulnerabilities such as website hacking, DNS hijacking, and unreliable
 certificate authorities.
 
-Did:web method relies on DNS and TLS as trust anchors. While DNS resolves the
+The `did:web` method relies on DNS and TLS as trust anchors. While DNS resolves the
 domain name to an IP address and TLS secures the transport mechanism, they do
 not necessarily enhance the trustworthiness of the information. TLS merely
 verifies that the Fully Qualified Domain Name matches the common name in the
@@ -115,44 +111,44 @@ of TLS certificates, ranging from `no assurance` with Let's Encrypt, to
 with QWAC certificates.
 
 Even with different levels of assurance offered by various TLS certificates,
-this information is not factored into the trustworthiness of the DID document
-content. This is because in the current did:web method specification, the did
+this information is not factored into the trustworthiness of a DID document's
+content. This is because in the current `did:web` method specification, the DID
 document itself does not require information about the type of TLS certificate
 and its corresponding level of assurance.
 
-**Historical DID document resolution** If a private key linked to a DID:WEB did
+**Historical DID document resolution** If a private key linked to a `did:web` DID
 document becomes lost, compromised, or outdated, it's essential to rotate the
 existing keys and associate a new key with the DID. The goals of this key
-rotation are threefold: to maintain the validity of prior signatures, nullify
-any signatures made with the faulty key, and enable the DID controller to
+rotation are threefold: to maintain the validity of prior signatures, to nullify
+any signatures made with the faulty key, and to enable the DID controller to
 produce new signatures using the updated key.
 
 In the order to prove the validity of prior signatures it's essential to be able
 to retrieve a DID document that was valid in a particular moment of time. In
-order to prove that the controller is still the same an immutable link between
+order to prove that the controller is still the same, an immutable link between
 the different versions of the DID documents is required.
 
-While the DID:WEB specification allows for key rotation and historical versions,
+While the `did:web` specification allows for key rotation and historical versions,
 it doesn't fully address all of the issues mentioned above.
 
-**DID document integrity** In the existing did:web specification, self-signing
+**DID document integrity** In the existing `did:web` specification, self-signing
 the DID document is not mandated. As a result, it becomes impossible to
 ascertain whether the content of the DID document is intact and unaltered or if
-it has been compromised. The DID core specification has a feature for the
+it has been compromised. The DID core specification has a feature for 
 integrity validation using hashlinks. But this feature will only work when the
 issuer of a verifiable credential does not update the DID document, otherwise
-the hashlinks wont match anymore.
+the hashlinks won't match anymore.
 
 ### Beyond did:web
 
 This paper aims to critically examine the most glaring drawbacks of the current
-did:web implementation: namely, the lack of trustworthiness, absence of key
+`did:web` implementation: namely, the lack of trustworthiness, the absence of key
 rotation mechanisms, and concerns about DID document integrity. To address these
 limitations, we will analyze two existing works that attempt to rectify these
-issues: the did:webplus and did:webs specifications. Through this analysis, we
+issues: the `did:webplus` and `did:webs` specifications. Through this analysis, we
 will assess how these specifications tackle the inherent shortcomings of
-did:web. Moreover, we will propose an alternative solution that enhances the
-existing did:web specification in a fully compliant manner, targeting the
+`did:web`. Moreover, we will propose an alternative solution that enhances the
+existing `did:web` specification in a fully compliant manner, targeting the
 rectification of the aforementioned drawbacks.
 
 ## Feature requests: What is did:web lacking
