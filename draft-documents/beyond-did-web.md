@@ -153,37 +153,37 @@ rectification of the aforementioned drawbacks.
 
 ## Feature requests: What is did:web lacking
 
-The following chapter is pointing out the features that are missing in the
-did:web method.
+The following section points out the features that are missing in the
+`did:web` method.
 
 ### Cryptographic ownership binding
 
-To proof the ownership of a DID, the owner performs a signature with the private
+To prove the ownership of a DID, the owner performs a signature with the private
 key that is linked to the DID. The verifier can verify the signature with the
-public key that is published in the DID document. In cases like `did:key` or
-`did:jwk` the public key is bounded to the ID of the DID, same goes for
-`did:ethr` where the verifier is able to validate the ledger. But `did:web` is
-missing the binding between the ID of the DID and the public keys to proof
+public key that is published in the DID document. In cases such as `did:key` or
+`did:jwk`, the public key is bound to the ID of the DID. The same goes for
+`did:ethr`, where the verifier is able to validate the ledger. But `did:web` is
+missing the binding between the ID of the DID and the public keys to prove
 ownership. Here the owner or the controller of the DID document is the one who
 has access to either the web server where the DID document is hosted or to the
 DNS servers to point to another web server. The owner of these resources is able
-to publish a new DID document and therefore to change the public keys. The
-attacker is not able to get access to the old used private key of the DID, but
-can hijack the identity to sign new credentials or authenticate with this ID to
-other services.
+to publish a new DID document and therefore to change the public keys. An
+attacker could not get access to the old used private key of the DID, but
+can hijack the identity to sign new credentials or authenticate to
+other services with this ID.
 
-On the other hand this missing binding allows the owner to rotate the keys in
-case he lost access to the current private key, like the typical "passwort
-forget" functionality. The risk of locking out by the private key is a feature
-other DID methods like `did:key` or `did:jwk` are missing. But as mentioned the
+On the other hand. this missing binding allows the owner to rotate the keys in
+case he lost access to the current private key, similar to the typical "password
+forget" functionality. Resolving the issue of being locked out by the private key is a feature
+other DID methods such as `did:key` or `did:jwk` are missing. But as mentioned the
 ownership to the DNS and web servers is a risk that has to be considered.
 
 ### Unique identifiers for the objects
 
 Each element inside the DID document has to have a unique identifier, because it
 needs to be referenced. In case a credential is signed by a key, the DID
-document including the public key can also include multiple public keys. A X509
-certificate does not need a specific identifier of the public key, because the
+document including the public key can also include multiple public keys. A X.509
+certificate does not need a specific identifier for the public key, because the
 certificate only includes one public key, so the identifier of the certificate
 and the public key is the same. It is also not a good way to loop over all the
 public keys in the DID document to check if the signature is valid with one of
@@ -192,18 +192,18 @@ them. Instead the public key will be referenced in the issued credential like
 future, because `did:web` is not supporting versioning of the documents. The
 owner is unable to publish a new public key under the same identifier because it
 would make the old public key unavailable. Other DID methods that support
-versioning allow to query a public key by the identifier and the version id or
+versioning allow for the querying of a public key by the identifier and the version id or
 time like `did:ethr:123456#key-1?versionId=2` and a new public key like
-`did:ethr:123456#key-1?versionId=2`. This is important when a use case enforces
+`did:ethr:123456#key-1?versionId=2`. This is important when a use case requires
 you to publish a public key under a specific identifier. For use cases like
-authentication this feature sounds irrelevant because you need always the latest
-public key to verify the response. But in case of auditability you want to query
-older public keys to proof that the signature was valid at the time of issuance
+authentication this feature sounds irrelevant because you always need the latest
+public key to verify the response. But in case of auditability, you want to query
+older public keys to prove that the signature was valid at the time of issuance
 without forcing you to store the public key in your own archive.
 
 ### did:web auditability
 
-did:web In the area of software development for compliance solutions, the
+Audibitility goes beyond just a question of unique identifiers. In the area of software development for compliance solutions, the
 integrity, transparency, and verifiability of data are foundational
 requirements. Essential "compliance controls" such as Confidentiality,
 Integrity, Availability, Non-repudiation, Attributability, Tamper-proof
@@ -216,52 +216,55 @@ context.
 
 It guarantees that every piece of data, once entered, remains transparent and
 immutable, establishing a clear, verifiable record. This is especially vital for
-the assertions issued by the controller of the DID in regulated industries where
+the assertions issued by the controller of a DID in regulated industries where
 the stakes for maintaining data integrity are exceptionally high, directly
 impacting public trust, safety, and the bottom line. Thus, for software aiming
 to provide compliance solutions, embedding these auditability features is not
 just about meeting regulatory standards; it's about ensuring long-term trust,
 security, accountability, and operational excellence.
 
-did:web, while being easy to implement, has inherent limitations when it comes
+`did:web`, while being easy to implement, has inherent limitations when it comes
 to providing full auditability features for the entire DID lifecycle, especially
 concerning key rotations and DID document configuration events.
 
 Here's why:
 
-- Centralized Nature: did:web identifiers are essentially URLs, and they rely on
+- **Centralized Nature:** `did:web` identifiers are essentially URLs, and they rely on
   the traditional web infrastructure. This means that the data is stored on
-  centralized servers or web domains. Also all the information are public
-  available to read for everyone giving more transparency and the immutability
-  by linking the transactions in a chain removes a central power to update
-  persisted data. In decentralized systems like blockchains the information get
+  centralized servers or web domains. In decentralized systems such as blockchains the information get
   published on multiple servers that are not controlled by a single stakeholder.
   An end user is able to query multiple endpoints and can verify if he/she got
-  equal results.
-- Lack of Immutable History: In decentralized ledger systems, every change or
+  equal results.  Also, all the information is publicly
+  available to read for everyone, providing more transparency. None of these features
+  are necessarily available in centralized web infrastructure.
+- **Lack of Immutable History:** In decentralized ledger systems, every change or
   transaction is recorded in a way that it cannot be altered, ensuring a
-  permanent and transparent history. did:web, due to its reliance on the
+  permanent and transparent history. Immutability is created
+  by linking the transactions in a chain, removing centralized ability to update
+  peristent data.  `did:web`, due to its reliance on the
   traditional web, doesn't inherently provide this feature. If a DID document is
   updated or a key is rotated, the previous state might be overwritten without
   any immutable record of the change.
-- Vulnerability to Tampering: Since did:web documents are hosted on web servers,
+- **Vulnerability to Tampering:** Since `did:web documents` are hosted on web servers,
   they are susceptible to common web vulnerabilities. Malicious actors, if they
   gain access, can alter or delete historical data, making it challenging to
   audit the entire lifecycle of the DID.
-- Dependence on Web Hosting Providers: The availability and integrity of did:web
+- **Dependence on Web Hosting Providers:** The availability and integrity of `did:web`
   documents are tied to the reliability of web hosting providers. These
   providers can experience downtime, data losses, or even decide to terminate
   services, leading to potential loss of historical data.
-- Absence of Native Timestamping: Unlike some decentralized systems that
-  inherently timestamp every transaction, did:web doesn't offer tamper-proof
+- **Absence of Native Timestamping:** Unlike some decentralized systems that
+  inherently timestamp every transaction, `did:web` doesn't offer tamper-proof
   timestamping. This makes it impossible to verify the exact sequence and timing
   of events in the DID's lifecycle.
-- Potential for Data Inconsistency: Without a decentralized consensus mechanism,
-  there's a risk of data inconsistency in did:web. Different servers might have
+- **Potential for Data Inconsistency:** Without a decentralized consensus mechanism,
+  there's a risk of data inconsistency in `did:web`. Different servers might have
   different versions of a DID document, complicating the audit process.
 
+#### Achieving Long-Term Non-Repudiation
+
 Integrating self-certifying identifiers with a robust microledger enhances the
-did:web method, transforming it from a rudimentary system to a comprehensive,
+`did:web` method, transforming it from a rudimentary system to a comprehensive,
 auditable solution that includes timestamping and sequencing of DID document
 configuration events.
 
@@ -276,7 +279,7 @@ Achieving long-term non-repudiation involves:
 - Storing each snapshot in a git repository.
 - Ensuring the system's resilience, even in scenarios like company bankruptcy.
 - Digitally signing each snapshot for added security.
-- Granting all partners and auditors access to the did:web operator's git
+- Granting all partners and auditors access to the `did:web` operator's git
   repository, allowing them to clone and retrieve the microledger whenever
   necessary.
 
@@ -284,27 +287,27 @@ This methodology is accepted as a compliance solution in Germany and is
 considered to ensure long-term non-repudiation as an interim solution for
 productive systems.[2]
 
-More on Long-term Non-repudiation
+#### More on Long-term Non-repudiation
 
 KERI's introduction of witness networks offers a more abstract and sophisticated
 approach for achieving long-term non-repudiation. However, its implementation
 can be more challenging compared to the aforementioned method.
 
-Being a self certifying identifiers and a robust microledger with did:web
-transforms did:web from a very basic approach to an auditable solution including
+Adding self certifying identifiers and a robust microledger to `did:web`
+transforms `did:web` from a very basic approach to an auditable solution including
 tamper-proof timestamping and sequencing of DID document configuration events.
 
 When snapshots of such a micro-ledger are stored on an immutable, publicly
-accessible system such as "git" deletion and duplicity attacks can be mitigated.
+accessible system such as "git", deletion and duplicity attacks can be mitigated.
 KERI introduced the concept of witness networks which is a more abstract and
 advanced approach.
 
 This combination leverages the ease of web-based systems with the
 trustworthiness, security, and transparency of decentralized ledgers. It
-addresses the inherent challenges of the traditional did:web method, offering a
+addresses the inherent challenges of the traditional `did:web` method, offering a
 more robust and reliable solution for digital identity management.
 
-## Solving Problems
+## Solving Problems [[ETH]]
 
 In the next chapter, we address the key challenges of the `did:web` method. We
 begin by exploring efficient strategies for Key Rotation, highlighting the
