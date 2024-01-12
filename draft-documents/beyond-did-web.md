@@ -307,23 +307,23 @@ trustworthiness, security, and transparency of decentralized ledgers. It
 addresses the inherent challenges of the traditional `did:web` method, offering a
 more robust and reliable solution for digital identity management.
 
-## Solving Problems [[ETH]]
+## Solving Problems
 
-In the next chapter, we address the key challenges of the `did:web` method. We
-begin by exploring efficient strategies for Key Rotation, highlighting the
+In the next section, we address the key challenges of the `did:web` method. We
+begin by exploring efficient strategies for key rotation, highlighting the
 importance of maintaining key histories and versioning. Next, we discuss the
-implementation of a Micro Ledger Approach for DID Document Versioning, and
+implementation of a micro-ledger approach for DID Document Versioning. We
 conclude with an examination of embedding self-signatures and enhancing DID
 document validation, focusing on maintaining integrity and trustworthiness
 within the system.
 
 ### Key Rotation
 
-When [the private key of a DID becomes unusable](#Private-Key-gone-bad), the did
+When [the private key of a DID becomes unusable](#Private-Key-gone-bad), the DID
 document needs to be updated to publish a new public key. In order to fulfill
 the [requirements listed above](#Private-Key-gone-bad), the old private key must
-still be accessible, but it must be made clear signatures from which time period
-are still to be considered valid and from where they are to be considered
+still be accessible, but it must be made clear during which time period
+signatures are still to be considered valid and at what point they are to be considered
 invalid.
 
 Having a version history of keys inside a DID document with published validity
@@ -337,20 +337,20 @@ conclude that rather than coming up with a way to only having a version history
 of keys, we would rather have
 [versioned DID documents](#Did-Document-Versioning).
 
-### Did Document Versioning - Micro Ledger Approach
+### Did Document Versioning - Micro-Ledger Approach
 
 The best:tm: approach to versioning is what is nowadays known as a "micro
-ledger", i.e. hash linked data blocks. Notice that this is the data structure
+ledger", i.e. hash-linked data blocks. Notice that this is the data structure
 used in a block chain, but none of the methods discussed in this paper actually
 requires a distributed ledger to store/share the data.
 
-- did:webs uses KERI to have this micro ledger in form of an KERI event log.
-- The did:web2.0 proposal has the backward links as resolvable DID URIs,
-  including the hash (id), directly in the DID document in a new `"previous"`
+- `did:webs` uses KERI to have this micro ledger in form of an KERI event log.
+- The `did:web2.0` proposal has the backward links as resolvable DID URIs,
+  including the hash (id), which are placed directly in the DID document in a new `"previous"`
   field.
-- did:webplus links to the previous DID document via including a
+- `did:webplus` links to the previous DID document by including a
   `prevDIDDocumentSelfSignature` field, which is the most traditional form of
-  linking the blocks found e.g. in the bitcoin data structure
+  linking blocks (e.g. in the bitcoin data structure).
 
 ```mermaid
 flowchart TD
@@ -368,7 +368,6 @@ structure in did:webs.
 subgraph did:webplus / DID web 2.0
     vn[Latest DID doc] -.-> v3[DID doc v3] -- prevDIDDocumentSelfSignature / previous --> v2[DID doc v2] -- prevDIDDocumentSelfSignature / previous -->  v1[Inception event]
 end
-
 ```
 
 In contrast, did:webplus builds the micro ledger directly from the did
