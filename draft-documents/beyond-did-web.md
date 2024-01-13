@@ -418,7 +418,7 @@ flowchart TB
     did3>did:METHOD:ID?timestamp=1695241141] --> v3
 ```
 
-## Summary of did:web improving DID methods [[ETH]]
+## Summary of `did:web` improving DID methods
 
 This section introduces existing proposals that aim to solve some of the
 limitations of `did:web`.
@@ -462,7 +462,7 @@ seen as a method for exposing a set of KERI mechanisms via HTTPS.
 The `did:webplus` method [4] augments `did:web` by maintaining an immutable and
 auditable history of DID document versions.
 
-This is realized by implementing a microledger in which the signature of the
+This is realized by implementing a micro ledger in which the signature of the
 initial document is incorporated into the DID itself, with each subsequent
 document referencing the signature of its predecessor. Documents also contain
 additional attributes, including a monotonically increasing _version number_ and
@@ -500,23 +500,23 @@ and computing the signature.
 ## DID Web with attached validation
 
 During the Rebooting Web of Trust event we also tried to find a way to make the
-DID documents verifiable without breaking the actual schema of a valid did:web
-document like `did:webplus` is doing. Another requirement was to just use
-technologies that have already a high adoption.
+DID documents verifiable without breaking the actual schema of a valid `did:web`
+document, like `did:webplus` is doing. Another requirement was to only use
+technologies that already have a high adoption.
 
-The did:web can be used either as the issuer in the credential or as the
+The `did:web` can be used either as the issuer in the credential or as the
 holder/owner.
 
 ### Using the DID to identify the issuer of a verifiable credential
 
-In this case the verifier needs access to the public key, even when the private
+In this case, the verifier needs access to the public key, even when the private
 key is not actively used to sign new credentials anymore. To make this possible,
 the issuer has to add either the
 [versionId](https://www.w3.org/TR/did-spec-registries/#versionId-param) or
 [versionTime](https://www.w3.org/TR/did-spec-registries/#versionTime-param)
 [query parameter](https://www.w3.org/TR/did-core/#did-parameters) to its
 identifier. It would look something like this: `did:web:example.com?versionId=2`
-or `did:web:example.com?versionTime=2023-09-21T10:08:26.047Z`. This allows to
+or `did:web:example.com?versionTime=2023-09-21T10:08:26.047Z`. This allows us to
 have multiple versions of a DID document and therefore to update the key
 material or the service points.
 
@@ -527,9 +527,9 @@ the issuer adds a
 the DID document to the identifier. The final identifier looks like this
 `did:web:example.com?versionId=2&hl=zQmWvQxTqbG2Z9HPJgG57jjwR154cKhbtJenbyYTWkjgF3e`.
 
-After checking the integrity of the DID document we need to make sure that the
+After checking the integrity of the DID document, we need to make sure that the
 used public key was valid during the issuance process. Compared to other
-formats, like X509 certificates, DID documents do not have fields defining the
+formats, like X.509 certificates, DID documents do not have fields defining the
 lifespan of a DID document and the validity of the content. To solve this
 problem, we can use the
 [DID document metadata](https://www.w3.org/TR/did-core/#did-document-metadata).
@@ -557,12 +557,12 @@ A `versionId` or `versionTime` query can be passed to the endpoint to get the
 DID document metadata for a specific version. If none is passed, the metadata
 from the latest DID document are returned. The type `didDocumentMetaData` is not
 yet included in the
-[Did spec registry](https://www.w3.org/TR/did-spec-registries/#service-types).
+[DID spec registry](https://www.w3.org/TR/did-spec-registries/#service-types).
 Using the metadata endpoint we are not required to define the `versionId` as an
-increment number to discover the next version. The value
+incrementing number to discover the next version. The value
 [nextVersionId](https://www.w3.org/TR/did-spec-registries/#nextversionid) is
 giving us this information we need to request the next version if there is any.
-If we get none, we can be sure to have the latest version of the DID document.
+If we get none, we can be sure that we have the latest version of the DID document.
 
 Using only the already defined parameters from the did-core, we don't need to
 add extra fields to the DID document. So being compliant to the schemas
@@ -575,18 +575,18 @@ metadata.
 ### Using the DID as the holder of verifiable credential
 
 The method can also be used for the holder binding when issuing a credential.
-Since did:web allows to update the DID document, the holder is able to perform
+Since `did:web` allows for the update of the DID document, the holder is able to perform
 key rotations to get rid of compromised keys. When binding a credential to a
 holder (or more generally using the holder's DID as a reference to the holder
-anywhere) the un-versioned DID should be used, exactly as did:web is used today.
+anywhere) the un-versioned DID should be used, exactly as `did:web` is used today.
 When the identity of a holder (or any person) at the present time of the
 validation is to be checked, sending the DID without a version specification and
 hence receiving the most up to date DID document is appropriate.
 
 For added security, the issuer of a holder-bound VC might add a version + hash
-link parameter to the DID and use this as the subject id, hence signing that he
-checked a certain version of the DID document to belong to the holder did. This
-enables the verifier to check that their is a certificate chain going back from
+link parameter to the DID and use this as the subject ID, hence signing that he
+checked that a certain version of the DID document belonged to the holder DID. This
+enables the verifier to check that there is a certificate chain going back from
 the current version of the DID document to the one that was committed in the VC.
 This chain of certificates is build of JWTs, each one signed with a valid key
 from the old DID document and referring to the next DID document via a hash
@@ -606,7 +606,7 @@ We do not need to include a hashlink in the issuer reference since we already
 validate this document. To follow the principles of least privilege we can limit
 the usage of possible keys by defining that these credentials should be signed
 by a keys that is in the list for
-[authentication](https://www.w3.org/TR/did-core/#authentication) To get access
+[authentication](https://www.w3.org/TR/did-core/#authentication). To get access
 to the signed credentials, one more service endpoint has to be defined where the
 credentials are stored:
 
@@ -632,8 +632,8 @@ The storage of DID documents needs more space than just storing the changes in
 case only one key is rotated but the other nine keys are still included. Is is a
 downside for the owner of the DID but also for the holder. It has to request all
 DID documents step by step instead of downloading all DID documents in a list.
-This could be done via another service endpoint, requesting a list of did
-documents and proofs so it can be validated online.
+This could be done via another service endpoint, requesting a list of DID
+documents and proofs so that it can be validated online.
 
 In some scenarios the amount of validation can be huge when the holder had made
 a lot of key rotations after it got its credential. For this case it would be
@@ -641,14 +641,14 @@ more effective to make jumps in the chain of versions. But to do so, the owner
 has to sign a claim that version five is in the trust chain of version two, when
 it got signed by a key of version two. But this would violate the lifespan of
 the key from version two since it got rotated when creating version three. And
-it's also not good practice to not rotate the key that is allowing to update a
+it's also not good practice to not rotate the key that is allowed to update a
 DID document.
 
 ## Outlook / Future Research
 
-In this paper we DID a high level comparison of the did:webs and did:webplus
-method and compared it to what we think would be possible to achieve with
-augmented did:webs alone. We did deliberately not do a deep comparison of e.g.
+In this paper we did a high level comparison of the `did:webs` and `did:webplus`
+methods and compared them to what we think would be possible to achieve with
+augmented `did:web` alone. We deliberately did not do a deep comparison of e.g.
 performance KPIs of the involved algorithms, neither is this a solid security
 analysis of any of the mentioned methods. Such a more thorough analysis of the
 methods is left for future research.
@@ -657,11 +657,11 @@ methods is left for future research.
 
 We would like to thank Dmitri Zagidulin, Benjamin Goering, and Juan Caballero
 for writing
-[the advance reading paper "DID Web 2.0" for RWOT 12](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/advance-readings/did-web-2.0.md)
+[the advance reading paper "DID Web 2.0" for RWOT 12](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/advance-readings/did-web-2.0.md),
 which sparked the work on this paper at RWOT 12.
 
 We would also like to thank all the organizers of RWOT 12 for organizing and
-facilitating this great conference which enabled us to work on this paper.
+facilitating this great conference, which enabled us to work on this paper.
 
 ## References
 
