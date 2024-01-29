@@ -6,6 +6,14 @@ The goal of the workshop is to generate five technical white papers and/or propo
 
 Please [sign up for our mailing list](https://www.weboftrust.info/subscribe/) to be informed as the workshop is finalized.
 
+## Final Papers
+
+## [*The Ecosystem Coordinator’s Role in SSI Ecosystem Management*](final-documents/ecosystem-management.pdf) [(Text)](final-documents/ecosystem-management.md)
+
+#### by Christiane Wirrig, PhD
+
+> The analysis builds on a draft paper from RWOT11 that developed an Enterprise SSI stakeholder map to improve our understanding of the components in an SSI ecosystem that need to be engaged to make a technical solution work commercially. It transpired that an entity called the Ecosystem Coordinator plays a fundamental part in the orchestration of an SSI ecosystem. This short RWOT12 project assesses the role of the Ecosystem Coordinator in more detail based on real-world observations. What does an Ecosystem Coordinator need to be and do to make their ecosystem work?
+
 ## Advance Readings
 
 In advance of the design workshop, all participants are invited to contribute a one-or-two page topic paper to be shared with the other attendees on either:
