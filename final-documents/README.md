@@ -2,7 +2,7 @@
 
 _This is a listing for the RWOT12 papers to date. [Several more](../draft-documents/README.md) are in process._
 
-## [*Beyond did:web*](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/final-documents/beyond-did-web.pdf) [(Text)](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/final-documents/beyond-did-web.md)
+## [*Beyond did:web*](beyond-did-web.pdf) [(Text)](beyond-did-web.md)
 
 #### by Hans Boone, Dan Carez, Mirko Mollik, Dr. Sebastan Schmitner, Dr. Carsten Stoecker
 
