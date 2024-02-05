@@ -2,6 +2,16 @@
 
 _This is a listing for the RWOT12 papers to date. [Several more](../draft-documents/README.md) are in process._
 
+## [*Beyond did:web*](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/final-documents/beyond-did-web.pdf) [(Text)](https://github.com/WebOfTrustInfo/rwot12-cologne/blob/main/final-documents/beyond-did-web.md)
+
+#### by Hans Boone, Dan Carez, Mirko Mollik, Dr. Sebastan Schmitner, Dr. Carsten Stoecker
+
+> This paper will explore a few recent suggestions for enhancing the `did:web`
+method, in particular `did:webplus` and `did:webs`. Shortcomings of `did:web` are
+analyzed and a list of necessary features to overcome real problems is
+assembled. We strive to avoid the problem mentioned in the [classic xkcd comic on standards](https://imgs.xkcd.com/comics/standards.png) and
+investigate whether the did:web method can be improved without creating
+yet another (few) DID methods.
 ## [*The Ecosystem Coordinator’s Role in SSI Ecosystem Management*](ecosystem-management.pdf) [(Text)](ecosystem-management.md)
 
 #### by Christiane Wirrig, PhD
