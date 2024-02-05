@@ -8,6 +8,17 @@ Please [sign up for our mailing list](https://www.weboftrust.info/subscribe/) to
 
 ## Final Papers
 
+## [*Beyond did:web*](final-documents/beyond-did-web.pdf) [(Text)](final-documents/beyond-did-web.md)
+
+#### by Hans Boone, Dan Carez, Mirko Mollik, Dr. Sebastan Schmitner, Dr. Carsten Stoecker
+
+> This paper will explore a few recent suggestions for enhancing the `did:web`
+method, in particular `did:webplus` and `did:webs`. Shortcomings of `did:web` are
+analyzed and a list of necessary features to overcome real problems is
+assembled. We strive to avoid the problem mentioned in the [classic xkcd comic on standards](https://imgs.xkcd.com/comics/standards.png) and
+investigate whether the did:web method can be improved without creating
+yet another (few) DID methods.
+
 ## [*The Ecosystem Coordinator’s Role in SSI Ecosystem Management*](final-documents/ecosystem-management.pdf) [(Text)](final-documents/ecosystem-management.md)
 
 #### by Christiane Wirrig, PhD
