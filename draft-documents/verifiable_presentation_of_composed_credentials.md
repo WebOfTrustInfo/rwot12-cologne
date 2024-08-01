@@ -6,7 +6,7 @@
 - Sebastian Zickau <sebastian.zickau@stadt-koeln.de>
 - Diana
 - Fateme
-- Golda
+- Golda Velez <gvelez17@gmail.com>
 - Ivan
 - Markus
 
